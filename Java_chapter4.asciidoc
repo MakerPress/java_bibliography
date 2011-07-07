@@ -1,0 +1,94 @@
+== Class Libraries
+
+
+== Data Structures and the Java Collections Framework, Third Edition
+
+_John Wiley & Sons_
+_By William J. Collins_
+_ISBN: 9780470482674_
+_January 2011_
+_$118.95 US_
+_760 pages_
+
+Instead of emphasizing the underlying mathematics to get programmers to build their own data structures, Collins enables them to manipulate existing structures in the Java Collections Library. This allows them to learn through coding rather than by doing proofs. 23 lab projects and hundreds of programming examples are integrated throughout the pages to build their intuition. The approach this book takes helps programmers quickly learn the concepts that underlie data structures.
+
+_http://my.safaribooksonline.com/book/programming/java/9780470482674?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Java Message Service, Second Edition
+
+_O'Reilly Media_
+_By Mark Richards, Richard Monson-Haefel & David A Chappell_
+_ISBN: 9780596802264_
+_May 2009_
+_$39.99 US_
+_336 pages_
+
+This book is a thorough introduction to the standard API that supports "messaging" -- the software-to-software exchange of crucial data among network computers. You'll learn how JMS can help you solve many architectural challenges, such as integrating dissimilar systems and applications, increasing scalability, eliminating system bottlenecks, supporting concurrent processing, and promoting flexibility and agility. Updated for JMS 1.1, this second edition also explains how this vendor-agnostic specification will help you write messaging-based applications using IBM's MQ, Progress Software's SonicMQ, ActiveMQ, and many other proprietary messaging services. Messaging is a powerful paradigm that makes it easier to uncouple different parts of an enterprise application. This book will quickly teach you how to use the key technology that lies behind it.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596802264?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Java Generics and Collections
+
+_O'Reilly Media_
+_By Maurice Naftalin & Philip Wadler_
+_ISBN: 9780596527754_
+_October 2006_
+_$34.99 US_
+_288 pages_
+
+This comprehensive guide shows you how to master the most important changes to Java since it was first released. Generics and the greatly expanded collection libraries have tremendously increased the power of Java 5 and Java 6. But they have also confused many developers who haven't known how to take advantage of these new features. This book covers everything from the most basic uses of generics to the strangest corner cases. It teaches you everything you need to know about the collections libraries, so you'll always know which collection is appropriate for any given task, and how to use it.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596527754?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Java Threads, Third Edition
+
+_O'Reilly Media_
+_By Scott Oaks & Henry Wong_
+_ISBN: 9780596007829_
+_September 2004_
+_$39.95 US_
+_360 pages_
+
+Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier. You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs. 
+
+_http://my.safaribooksonline.com/book/programming/java/9780596007829?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Java Swing, Second Edition
+
+_O'Reilly Media_
+_By Marc Loy, Robert Eckstein, Dave Wood, James Elliott & Brian Cole_
+_ISBN: 9780596004088_
+_November 2002_
+_$59.99 US_
+_1280 pages_
+
+Swing is a fully-featured user interface development kit for Java applications. Building on the foundations of the Abstract Window Toolkit (AWT), Swing enables cross-platform applications to use any of several pluggable look-and-feels. Swing developers can take advantage of its rich, flexible features and modular components, building elegant user interfaces with very little code. This second edition thoroughly covers all the features available in Java 2 SDK 1.3 and 1.4. More than simply a reference, this new edition takes a practical approach. It is a book by developers for developers, with hundreds of useful examples, from beginning level to advanced, covering every component available in Swing. All these features mean that there's a lot to learn. Even setting aside its platform flexibility, Swing compares favorably with any widely available user interface toolkit--it has great depth. Swing makes it easy to do simple things but is powerful enough to create complex, intricate interfaces.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596004088?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Next Generation Java Testing: TestNG and Advanced Concepts
+
+_Addison-Wesley Professional_
+_By Cédric Beust & Hani Suleiman_
+_ISBN: 9780321503107_
+_October 2007_
+_$59.99 US_
+_512 pages_
+
+
+Enterprise Java developers must achieve broader, deeper test coverage, going beyond unit testing to implement functional and integration testing with systematic acceptance. This book introduces breakthrough Java testing techniques and TestNG, a powerful open source Java testing platform. Cédric Beust, TestNG's creator, and leading Java developer Hani Suleiman, present powerful, flexible testing patterns that will work with virtually any testing tool, framework, or language. They show how to leverage key Java platform improvements designed to facilitate effective testing, such as dependency injection and mock objects. They also thoroughly introduce TestNG, demonstrating how it overcomes the limitations of older frameworks and enables new techniques, making it far easier to test today's complex software systems. This book will help Java developers build more robust code for today's mission-critical environments.
+
+_http://my.safaribooksonline.com/book/programming/java/9780321503107?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Java NIO
+
+_O'Reilly Media_
+_By Ron Hitchens_
+_ISBN: 9780596002886_
+_August 2002_
+_$39.99 US_
+_304 pages_
+
+Many serious Java programmers, especially enterprise Java programmers, consider the I/O API--called NIO for New Input/Output--the most important feature in the 1.4 version of the Java 2 Standard Edition. The NIO package includes many things that have been missing from previous editions of Java that are critical to writing high-performance, large-scale applications: improvements in the areas of buffer management, scalable network and file I/O, character-set support, and regular expression matching. Most of all, it boosts performance and speed dramatically. This book explores the new I/O capabilities of version 1.4 in detail and shows you how to put these features to work to greatly improve the efficiency of the Java code you write. This compact volume examines the typical challenges that Java programmers face with I/O and shows you how to take advantage of the capabilities of the new I/O features. You’ll learn how to put these tools to work using examples of common, real-world I/O problems and see how the new features have a direct impact on responsiveness, scalability, and reliability. 
+
+_http://my.safaribooksonline.com/book/programming/java/0596002882?cid=1107-biblio-java-link[Read it on Safari Online Books]_

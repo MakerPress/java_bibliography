@@ -1,0 +1,68 @@
+== Game Programming
+
+
+=== Beginning Java SE 6 Game Programming, Third Edition
+
+_Course Technology PTR_
+_By Jonathan S. Harbour_
+_ISBN: 9781435458086_
+_January 2011_
+_$34.99 US_
+_389 pages_
+
+This book is a hands-on guide that is perfect for beginner-level game programmers who want to quickly and easily learn how to create games using the latest version of the Java SDK, Java 6. Written in simple language, the book teaches each new skill using engaging tutorials, followed by end-of-chapter questions and exercises to help reinforce what you've just learned. You'll begin with the basics of writing a simple game using vector graphics, move on to utilizing Java's advanced library to add animation and sound effects, and end by creating a professional, sprite-based game full of interesting artwork and details that you can share with others on the web.
+
+_http://my.safaribooksonline.com/book/programming/java/9781435458086?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+
+=== Killer Game Programming in Java
+
+_O'Reilly Media_
+_By Andrew Davison_
+_ISBN: 9780596007300_
+_May 2005_
+_$59.99 US_
+_1080 pages_
+
+Java developers new to graphics and game programming, as well as game developers new to Java 3D, will find this book invaluable. It is a practical introduction to the latest Java graphics and game programming technologies and techniques. It is a comprehensive guide to everything you need to know to program cool, testosterone-drenched Java games. It will give you reusable techniques to create everything from fast, full-screen action games to multiplayer 3D games. In addition to the most thorough coverage of Java 3D available, this book also clearly details the older, better-known 2D APIs, 3D sprites, animated 3D sprites, first-person shooter programming, sound, fractals, and networked games. This book is a must-have for anyone who wants to create adrenaline-fueled games in Java.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596007300?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
+
+=== Introduction to Programming with Greenfoot: Object–Oriented Programming in Java™ with Games and Simulations, First Edition
+
+_Prentice Hall_
+_By Michael Kölling_
+_ISBN: 9780136037538_
+_August 2009_
+_$83.00 US_
+_216 pages_
+
+This book is ideal for introductory courses in Java Programming or Introduction to Computer Science. Programming doesn’t have to be dry and boring. This book teaches Java programming in an interactive and engaging way that is technically relevant, pedagogically sound, and highly motivational for students. Using the Greenfoot environment, and an extensive collection of compelling example projects, students are given a unique, graphical framework in which to learn programming.
+
+_http://my.safaribooksonline.com/book/programming/java/9780136037538?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
+
+=== Developing Games in Java
+
+_New Riders_
+_By David Brackeen, Bret Barker & Laurence Vanhelsuwé_
+_ISBN: 9781592730056_
+_August 2003_
+_$59.99 US_
+_1008 pages_
+
+If you already have Java programming experience and are looking to program games, this book is for you. David Brackeen, along with co-authors Bret Barker and Lawrence Vanhelsuwe, show you how to make fast, full-screen action games such as side scrollers and 3D shooters. Key features covered in this book include Java 2 game programming techniques, including latest 2D graphics and sound technologies, 3D graphics and scene management, path-finding and artificial intelligence, collision detection, game scripting using BeanShell, and multi-player game engine creation.
+
+_http://my.safaribooksonline.com/book/programming/java/9781592730056?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
+
+=== Beginning Java Game Programming, Second Edition
+
+_Course Technology PTR_
+_By Jonathan S. Harbour_
+_ISBN: 9781598634761_
+_December 2007_
+_$29.99 US_
+_366 pages_
+
+This book is a hands-on guide that is perfect for beginner-level game programmers who want to quickly and easily learn how to create games using Java. Written in simple language, the book teaches each new skill using engaging tutorials, followed by end-of-chapter questions and exercises to help reinforce what you've just learned. You'll begin with the basics of writing a simple 2D game using vector graphics, move on to utilizing Java's advanced 2D library to add animation and sound effects, and end by creating a professional, sprite-based game full of interesting artwork and details that you can share with others on your own website!
+
+_http://my.safaribooksonline.com/book/programming/java/9781598634761?cid=1107-bibilio-java-link[Read it on Safari Online Books]_

@@ -1,0 +1,53 @@
+== Language Reference
+
+
+=== Java in a Nutshell, 5th Edition
+
+_O'Reilly Media_
+_By David Flanagan_
+_ISBN: 9780596007737_
+_March 2005_
+_$44.95 US_
+_1264 pages_
+
+With more than 700,000 copies sold to date, Java in a Nutshell from O'Reilly is clearly the favorite resource amongst the legion of developers and programmers using Java technology. And now, with the release of the 5.0 version of Java, O'Reilly has given the book that defined the "in a Nutshell" category another impressive tune-up. This book now places less emphasis on coming to Java from C and C++, and adds more discussion on tools and frameworks. It also offers new code examples to illustrate the working of APIs, and, of course, extensive coverage of Java 5.0. This handy reference gets right to the heart of the program with an accelerated introduction to the Java programming language and its key APIs--ideal for developers wishing to start writing code right away. And, as was the case in previous editions, Java in a Nutshell, 5th Edition is once again chock-full of poignant tips, techniques, examples, and practical advice. For as long as Java has existed, Java in a Nutshell has helped developers maximize the capabilities of the program's newest versions. And this latest edition is no different.
+
+_http://my.safaribooksonline.com/book/programming/java/0596007736?cid=1107-biblio-java-link[Read it on Safari Online Books]_
+
+=== The Java Programming Language, Fourth Edition
+
+_Prentice Hall_
+_By Ken Arnold, James Gosling & David Holmes_
+_ISBN: 9780321349804_
+_August 2005_
+_$64.99 US_
+_928 pages_
+
+Direct from the creators of the Java programming language, this completely revised fourth edition is an indispensable resource for novice and advanced programmers alike. Developers around the world have used previous editions to quickly gain a deep understanding of the Java programming language, its design goals, and how to use it most effectively in real-world development. Now, Ken Arnold, James Gosling, and David Holmes have updated this classic to reflect the major enhancements in Java™ 2 Standard Edition 5.0 (J2SE™ 5.0). The authors systematically cover most classes in Java’s main packages, java.lang.*, java.util, and java.io, presenting in-depth explanations of why these classes work as they do, with informative examples. Several new chapters and major sections have been added, and every chapter has been updated to reflect today’s best practices for building robust, efficient, and maintainable Java software.
+
+_http://my.safaribooksonline.com/book/programming/java/9780321349804?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+=== Java Cookbook, Second Edition
+
+_O'Reilly Media_
+_By Ian F. Darwin_
+_ISBN: 9780596007010_
+_June 2004_
+_$49.99 US_
+_864 pages_
+
+You have a choice: you can wade your way through lengthy Java tutorials and figure things out by trial and error, or you can pick up this 2nd Edition book and get to the heart of what you need to know when you need to know it. In this book Java developers like you will learn by example, try out new features, and use sample code to understand how new additions to the language and platform work--and how to put them to work for you. Whether you're new to Java programming and need something to bridge the gap between theory-laden reference manuals and real-world programs or you're a seasoned Java programmer looking for a new perspective or a different problem-solving context, this book will help you make the most of your Java knowledge. Packed with hundreds of tried-and-true Java recipes covering all of the major APIs from the 1.4 version of Java, this book also offers significant first-look recipes for the most important features of the new 1.5 version, which is in beta release. You get practical solutions to everyday problems, and each is followed by a detailed, ultimately useful explanation of how and why the technology works.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596007010?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+ 
+=== Java Pocket Guide
+
+_O'Reilly Media_
+_By Robert Liguori & Patricia Liguori_
+_ISBN: 9780596514198_
+_March 2008_
+_$14.99 US_
+_192 pages_
+
+How many times have you reached an impasse while writing code because you couldn't remember how something in Java worked? This new pocket guide is designed to keep you moving. Concise, convenient and easy to use, this book gives you Java stripped down to its bare essentials -- in fact, it's the only book on Java that you can actually fit in your pocket. Written by Robert and Patricia Liguori, senior software and lead information engineers for Java-based air traffic management and simulation environments, this book contains everything you really need to know about Java, particularly everything you need to remember. 
+
+_http://my.safaribooksonline.com/book/programming/java/9780596514198?cid=1107-bibilio-java-link[Read it on Safari Online Books]_

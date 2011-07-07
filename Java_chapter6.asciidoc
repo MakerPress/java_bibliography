@@ -1,0 +1,54 @@
+== JVM Languages
+
+
+=== Programming Scala
+
+_O'Reilly Media_
+_By Dean Wampler & Alex Payne_
+_ISBN: 9780596155957_
+_July 2009_
+_$44.99 US_
+_448 pages_
+
+Learn how to be more productive with Scala, a new multi-paradigm language for the Java Virtual Machine (JVM) that integrates features of both object-oriented and functional programming. With this book, you'll discover why Scala is ideal for highly scalable, component-based applications that support concurrency and distribution. This book clearly explains the advantages of Scala as a JVM language. You'll learn how to leverage the wealth of Java class libraries to meet the practical needs of enterprise and Internet projects more easily. Packed with code examples, this book provides useful information on Scala's command-line tools, third-party tools, libraries, and available language-aware plugins for editors and IDEs.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596155957?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+===  Clojure Programming
+
+_O'Reilly Media_
+_By Chas Emerick, Brian Carper & Christophe Grand_
+_ISBN: 9781449394707_
+_Septmeber 2011_
+_$29.99 US_
+_400 pages_
+
+The Clojure language is a practical alternative for everyday programming that offers expressivity rivaling other dynamic languages like Ruby and Python, but allows one to seamlessly take advantage of Java libraries, services, and all of the resources of the JVM ecosystem. This book helps you learn the fundamentals of Clojure with examples relating it to the languages you know already—whether you're focused on data modeling, concurrency and parallelism, web programming, statistics and data analysis, and more.
+
+_http://my.safaribooksonline.com/book/programming/clojure/9781449310387?cid=1107-biblio-java-link[Read it on Safari Online Books]_
+
+=== JRuby Cookbook
+
+_O'Reilly Media_
+_By Justin Edelson & Henry Liu_
+_ISBN: 9780596519803_
+_November 2008_
+_$34.99 US_
+_224 pages_
+
+If you're interested in JRuby, you probably don't need a tutorial on Ruby, Rails, or Java -- you just need to know how to get things done. This Cookbook offers practical solutions for using the Java implementation of the Ruby language, with targeted recipes for deploying Rails web applications on Java servers, integrating JRuby code with Java technologies, developing JRuby desktop applications with Java toolkits, and more. The JRuby interpreter combines Ruby's simplicity and ease of use with Java's extensive libraries and technologies, a potent blend that opens new possibilities for Ruby, Rails, and Java. This Cookbook helps you take full advantage of JRuby's potential.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596519803?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Grails In Action
+
+_Manning Publications_
+_By Glen Smith & Peter Ledbrook_
+_ISBN: 9781933988931_
+_June 2009_
+_$44.99 US_
+_520 pages_
+
+For web developers used to wrestling with Java and XML, Grails is a breath of fresh air. Developers are instantly productive, picking up all the benefits of the Ruby-based Rails framework without giving up any of the power of Java. This book is a comprehensive look at Grails for Java developers. It covers the nuts and bolts of the core Grails components and is jam-packed with tutorials, techniques, and insights from the trenches. The book also covers using Grails with existing Java technology, like Spring, Hibernate, and EJBs.
+
+_http://my.safaribooksonline.com/book/programming/java/9781933988931?cid=1107-bibilio-java-link[Read it on Safari Online Books]_

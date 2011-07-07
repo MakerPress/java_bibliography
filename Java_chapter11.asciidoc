@@ -1,0 +1,282 @@
+== Web and Enterprise
+
+=== RESTful Java with JAX-RS
+
+_O'Reilly Media_
+_By Bill Burke_
+_ISBN: 9780596158040_
+_November 2009_
+_$39.99 US_
+_320 pages_
+
+Learn how to design and develop distributed web services in Java using RESTful architectural principals and the JAX-RS specification in Java EE 6. With this hands-on reference, you'll focus on implementation rather than theory, and discover why the RESTful method is far better than technologies like CORBA and SOAP. It's easy to get started with services based on the REST architecture. This book includes a technical guide that explains REST and JAX-RS, how they work, and when to use them. With the RESTEasy workbook that follows, you get step-by-step instructions for installing, configuring, and running several working JAX-RS examples using the JBoss RESTEasy implementation of JAX-RS.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596158040?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Core JavaServer Faces, Third Edition
+
+_Prentice Hall_
+_By David Geary & Cay S. Horstmann_
+_ISBN: 9780137012893_
+_May 2010_
+_$54.99 US_
+_672 pages_
+
+JavaServer Faces (JSF) is the standard Java EE technology for building web user interfaces. It provides a powerful framework for developing server-side applications, allowing you to cleanly separate visual presentation and application logic. JSF 2.0 is a major upgrade, which not only adds many useful features but also greatly simplifies the programming model by using annotations and “convention over configuration” for common tasks. To help you quickly tap into the power of JSF 2.0, this third edition has been completely updated to make optimum use of all the new features. This book provides everything you need to master the powerful and time-saving features of JSF 2.0 and is the perfect guide for programmers developing Java EE 6 web apps on Glassfish or another Java EE 6-compliant application servers, as well as servlet runners such as Tomcat 6.
+
+_http://my.safaribooksonline.com/book/programming/java/9780137012893?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== The Java EE 6 Tutorial: Basic Concepts, Fourth Edition
+
+_Prentice Hall_
+_By  Eric Jendrock, Ian Evans, Devika Gollapudi, Kim Haase & Chinmayee Srivathsa_
+_ISBN: 9780137081851_
+_August 2010_
+_$49.99 US_
+_600 pages_
+
+This book is a task-oriented, example-driven guide to developing enterprise applications for the Java Platform, Enterprise Edition 6 (Java EE 6). Written by members of the Java EE 6 documentation team at Oracle, this book provides new and intermediate Java programmers with a deep understanding of the platform. This edition contains extensive new material throughout, including detailed introductions to the latest APIs and platform features, and instructions for using the latest versions of GlassFish Server Open Source Edition and NetBeans IDE. 
+
+_http://my.safaribooksonline.com/book/programming/java/9780137081851?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== JavaServer Faces 2.0: The Complete Reference
+
+_McGraw-Hill Osborne Media_
+_By Ed Burns & Chris Schalk_
+_ISBN: 9780071625098_
+_December 2009_
+_$49.99 US_
+_751 pages_
+
+Fully revised and updated for all of the changes in JavaServer Faces (JSF) 2.0, this comprehensive volume covers every aspect of the official standard Web development architecture for JavaEE. Inside this authoritative resource, the co-spec lead for JSF at Sun Microsystems shows you how to create dynamic, cross-browser Web applications that deliver a world-class user experience while preserving a high level of code quality and maintainability. This book features an integrated sample application to use as a model for your own JSF applications, with code available online. The book explains all JSF features, including the request processing lifecycle, managed beans, page navigation, component development, Ajax, validation, internationalization, and security. Expert Group Insights throughout the book offer insider information on the design of JSF.
+
+_http://my.safaribooksonline.com/book/programming/java/9780071625098?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Beginning Java EE 6 Platform with GlassFish 3
+
+_Apress_
+_By Antonio Goncalves_
+_ISBN: 9781430228899_
+_August 2010_
+_550 pages_
+_$49.99 US_
+
+Java Enterprise Edition (Java EE) continues to be one of the leading Java technologies and platforms from Oracle (previously Sun). This is the first tutorial book on the final (RTM) version of the Java EE 6 Platform. Step by step and easy to follow, this book describes many of the Java EE 6 specifications and reference implementations, and shows them in action using practical examples. This book uses the new version of GlassFish 3 to deploy and administer the code examples. Written by an expert member of the Java EE 6 specification request and review board in the Java Community Process (JCP), this book contains the best information possible, from an expert's perspective on enterprise Java technologies.
+
+_http://my.safaribooksonline.com/book/programming/java/9781430228899?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Great Java Web Programming: Level 1 (video)
+
+_O'Reilly Media_
+_By James Turner_
+_ISBN: 9781449381776_
+_December 2009_
+
+Great Java Web Programming: Level 1 will lay the foundation for getting started creating web applications with a Java backend. Once you've finished the course you'll have all the tools you need to create powerful web applications that are easy to understand and maintain. Even beyond the basics, you'll learn how to leverage advanced language features such as the Java Standard Tag Library to make your applications clean and streamlined, but also secure and fast.
+
+_http://my.safaribooksonline.com/video/programming/java/9781449381776?cid=1107-bibilio-java-link[See it on Safari Online Books]_
+
+=== RESTful Java Web Services
+
+_Packt Publishing_
+_By Jose Sandoval_
+_ISBN: 9781847196460_
+_November 2009_
+_$35.99 US_
+_256 pages_
+
+If you are already familiar with REST theory but are new to RESTful Java web services, and want to use the Java technology stack together with Java RESTful frameworks to create robust web services, this is the book for you. This book covers the theory of REST; practical coding examples for RESTful clients; a practical outline of the RESTful design process—yes, it's different from traditional web application development; and a complete implementation of a non-trivial web service using the following frameworks: Jersey's JAX-RS, Restlet's Lightweight REST, JBoss's JAX-RS RESTEasy, and Struts 2 with the REST plug-in.
+
+_http://my.safaribooksonline.com/book/programming/java/9781847196460?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Enterprise JavaBeans 3.1
+
+_O'Reilly Media_
+_By Andrew Lee Rubinger & Bill Burke_
+_ISBN: 9780596158026_
+_September 2010_
+_$54.99 US_
+_768 pages_
+
+Learn how to code, package, deploy, and test functional Enterprise JavaBeans with the latest edition of bestselling guide. Written by the developers of the JBoss EJB 3.1 implementation, this book brings you up to speed on each of the component types and container services in this technology, while the workbook in the second section provides several hands-on examples for putting the concepts into practice. This book is the most complete reference you'll find on this specification.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596158026?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Beginning JavaServer Pages
+
+_Wrox_
+_By Vivek Chopra, Sing Li, Rupert Jones, Jon Eaves & John T. Bell_
+_ISBN: 9780764574856_
+_February 2005_
+_$39.95 US_
+_1296 pages_
+
+JSP is one of the core technologies for server-side Java applications and the 2.0 release, which this book covers in detail, and makes JSP an even more powerful tool. This book walks Java programmers and Web developers through JSP fundamentals, including JSP syntax and directives, JSP Expression Language, JSP Tag libraries, JSTL, and techniques for testing and debugging. It also shows you how to use JSP in real-world Web applications along with open source frameworks such as Struts, WebWork, and Turbine, software design methodologies, and developer tools like Ant, jUnit, and CVS, as well as popular IDEs (integrated development environmnents).
+
+_http://my.safaribooksonline.com/book/programming/java/9780764574856?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Google App Engine Java and GWT Application Development
+
+_Packt Publishing_
+_By Daniel Guermeur & Amy Unruh_
+_ISBN: 9781849690447_
+_December 2010_
+_$44.99 US_
+_480 pages_
+
+Google Application Engine is a cloud computing technology that lets you run web applications that are easy to build and maintain as well as being scaled and load-balanced automatically. To build interesting and interactive web applications developers are turning to Java. However, building and deploying scalable web applications using Google Web Toolkit and Google App Engine for Java can be challenging even to developers. The start to finish approach of this book helps you meet these challenges. This book is designed to give developers all the information they need to develop their own GAE+GWT applications, with a particular focus on some of the technologies useful for building scalable social-media-oriented applications. It is an easy-to-follow guide that shows you how to get the most out of combining the powerful features of GAE and GWT. It provides you with solutions to many of the problems that arise in developing, maintaining, and scaling web applications. Packed with great examples and clear explanations, you will be able to build your own web applications that are scalable and reliable using GAE and GWT with Java.
+
+_http://my.safaribooksonline.com/book/programming/java/9781849690447?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Core Servlets and JavaServer Pages, Volume 2: Advanced Technologies, Second Edition
+
+_Prentice Hall_
+_By Marty Hall, Larry Brown & Yaakov Chaikin_
+_ISBN: 9780131482609_
+_December 2007_
+_$54.99 US_
+_736 pages_
+
+Java EE is the technology of choice for e-commerce applications, interactive Web sites, and Web-enabled services. Servlet and JSP technology provides the link between Web clients and server-side applications on this platform. This book is the definitive guide to the advanced features and capabilities provided by servlets and JSP. Like the first volume, it teaches state-of-the-art techniques and best practices illustrated with complete, working, fully documented programs. Complete source code for all examples is available free for unrestricted use at www.volume2.coreservlets.com. For information on Java training from Marty Hall, go to courses.coreservlets.com.
+
+_http://my.safaribooksonline.com/book/programming/java/9780131482609?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Patterns of Enterprise Application Architecture
+
+_Addison-Wesley Professional_
+_By Martin Fowler, David Rice, Matthew Foemmel, Edward Hieatt, Robert Mee & Randy Stafford_
+_ISBN: 9780321127426_
+_November 2002_
+_$69.99 US_
+_560 pages_
+
+The practice of enterprise application development has benefited from the emergence of many new enabling technologies. Multi-tiered object-oriented platforms, such as Java and .NET, have become commonplace. These new tools and technologies are capable of building powerful applications, but they are not easily implemented. Common failures in enterprise applications often occur because their developers do not understand the architectural lessons that experienced object developers have learned. This book  is written in direct response to the stiff challenges that face enterprise application developers. The author, noted object-oriented designer Martin Fowler, noticed that despite changes in technology--from Smalltalk to CORBA to Java to .NET--the same basic design ideas can be adapted and applied to solve common problems. With the help of an expert group of contributors, Martin distills over forty recurring solutions into patterns. The result is an indispensable handbook of solutions that are applicable to any enterprise application platform. Armed with this book, you will have the knowledge necessary to make important architectural decisions about building an enterprise application and the proven patterns for use when building them.
+
+_http://my.safaribooksonline.com/book/programming/java/9780321127426?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Practical JIRA Administration
+
+_O'Reilly Media_
+_By Matthew Doar_
+_ISBN: 9781449305413_
+_May 2011_
+_19.99 US_
+_92 pages_
+
+If you're familiar with JIRA for issue tracking, bug tracking, and other uses, you know it can sometimes be tricky to set up and manage. In this concise book, software toolsmith Matt Doar answers difficult and frequently-asked questions about JIRA administration, and shows you how JIRA is intended to be used
+
+_http://my.safaribooksonline.com/book/-/9781449309701?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Practical JIRA Plugins
+
+_O'Reilly Media_
+_By Matthew Doar_
+_ISBN:  9781449308278_
+_July 2011_
+_$29.99 US_
+_50 pages_
+
+JIRA is widely used as a product and bug tracking system, particularly in the Java world, but also in many other environment. However, it's a large open source project, for which setup and management can be tricky. This book shows you how to develop plugins that extend JIRA's functionality.
+
+=== Head First Servlets and JSP, Second Edition
+
+_O'Reilly Media_
+_By Bryan Basham, Kathy Sierra & Bert Bates_
+_ISBN: 9780596516680_
+_March 2008_
+_$49.99 US_
+_912 pages_
+
+Looking to study up for the new J2EE 1.5 Sun Certified Web Component Developer (SCWCD) exam? This book will get you way up to speed on the technology you'll know it so well, in fact, that you can pass the brand new J2EE 1.5 exam. Learn how to write servlets and JSPs, what makes a web container tick (and what ticks it off), how to use JSP's Expression Language (EL for short), and how to write deployment descriptors for your web applications. Master the c:out tag, and get a handle on exactly what's changed since the older J2EE 1.4 exam. You'll interact with servlets and JSPs in ways that help you learn quickly and deeply. And when you're through with the book, you can take a brand-new mock exam, created specifically to simulate the real test-taking experience.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596516680?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Enterprise JavaBeans 3.1, Sixth Edition
+
+_O'Reilly Media_
+_By Andrew Lee Rubinger & Bill Burke_
+_ISBN: 9780596158026_
+_September 2010_
+_$54.99 US_
+_768 pages_
+
+Learn how to code, package, deploy, and test functional Enterprise JavaBeans with the latest edition of this bestselling guide. Written by the developers of JBoss EJB 3.1, this book not only brings you up to speed on each component type and container service in this implementation, it also provides a workbook with several hands-on examples to help you gain immediate experience with these components. This book gives you a straightforward, no-nonsense explanation of the underlying technology of JavaBeans, including Java classes and interfaces, the component model, and the runtime behavior of EJB.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596158026?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+===Eclipse Web Tools Platform: Developing Java™ Web Applications
+
+_Addison-Wesley Professional_
+_By Naci Dai, Lawrence Mandel & Arthur Ryman_
+_ISBN: 9780321396853_
+_May 2007_
+_$59.99 US_
+_752 pages_
+
+The Eclipse Web Tools Platform (WTP) seamlessly integrates all the tools today’s Java Web developer needs. WTP is both an unprecedented Open Source resource for working developers and a powerful foundation for state-of-the-art commercial products. This book offers in-depth descriptions of every tool included in WTP, introducing powerful capabilities never before available in Eclipse. The authors cover the entire Web development process–from defining Web application architectures and development processes through testing and beyond. And if you’re seeking to extend WTP, this book provides an introduction to the platform’s rich APIs.
+
+_http://my.safaribooksonline.com/book/programming/java/9780321396853?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Beginning Java EE 6 Platform with GlassFish™ 3: From Novice to Professional
+
+_Apress_
+_By Antonio Goncalves_
+_ISBN: 9781430219545_
+_May 2009_
+_$44.99 US_
+_500 pages_
+
+Sun's enterprise Java™ platform, Java EE (Enterprise Edition), is getting a facelift! This book is one of the first tutorial books on the Java EE 6 Platform. Step-by-step and easy to follow, this book describes many of the Java EE 6 specifications and reference implementations and shows them in action using practical examples. Written by an expert member of the Java EE 6 specification request and review board in the Java Community Process (JCP), this book contains the best information possible, from an expert's perspective in enterprise Java technologies and platform.
+
+_http://my.safaribooksonline.com/book/programming/java/9781430219545?cid=1107-bibilio-java-link[Read in on Safari Online Books]_
+
+=== Java Servlet & JSP Cookbook
+
+_O'Reilly Media_
+_By Bruce Perry_
+_ISBN: 9780596005726_
+_Jan 2004_
+_$49.99 US_
+_752 pages_
+
+With literally hundreds of examples and thousands of lines of code, this book yields tips and techniques that any Java web developer who uses JavaServer Pages or servlets will use every day, along with full-fledged solutions to significant web application development problems that developers can insert directly into their own applications. This book presents real-world problems, and provides concise, practical solutions to each. This book also offers clear explanations of how and why the code works, warns of potential pitfalls, and directs you to sources of additional information, so you can learn to adapt the problem-solving techniques to similar situations. These recipes include vital topics like the use of Ant to setup a build environment, extensive coverage of the WAR file format and web.xml deployment descriptor, file-uploading, error-handling, cookies, logging, dealing with non-HTML content, multimedia, request filtering, web services, I18N, web services, and a host of other topics that frustrate even the most seasoned developers. 
+
+_http://my.safaribooksonline.com/book/web-development/jsp/0596005725?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== Java Servlet Programming, Second Edition
+
+_O'Reilly Media_
+_By Jason Hunter & William Crawford_
+_ISBN: 9780596000400_
+_April 2001_
+_$44.95 US_
+_784 pages_
+
+Servlets are an exciting and important technology that ties Java to the Web, allowing programmers to write Java programs that create dynamic web content. This book covers everything Java developers need to know to write effective servlets. It explains the servlet lifecycle, showing how to use servlets to maintain state information effortlessly. It also describes how to serve dynamic web content, including both HTML pages and multimedia data, and explores more advanced topics like integrated session tracking, efficient database connectivity using JDBC, applet-servlet communicaton, interservlet communication, and internationalization. Readers can use the book's numerous real-world examples as the basis for their own servlets. The second edition has been completely updated to cover the new features of Version 2.2 of the Java Servlet API. It introduces chapters on servlet security and advanced communication, and also introduces several popular tools for easier integration of servlet technology with dynamic web pages. 
+
+_http://my.safaribooksonline.com/book/programming/java/9780596000400?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+
+=== JavaServer Pages, Third Edition
+
+_O'Reilly Media_
+_By Hans Bergsten_
+_ISBN: 9780596005634_
+_December 2003_
+_$44.95 US_
+_768 pages_
+
+JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights. This Third Edition is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. 
+
+_http://my.safaribooksonline.com/book/programming/java/9780596005634?cid=1107-bibilio-java-link[Read in on Safari Online Books]_
+=== Ajax on Java
+
+_O'Reilly Media_
+_By Steven Douglas Olson_
+_ISBN: 9780596101879_
+_February 2007_
+_$29.99 US_
+_240 pages_
+
+This practical guide shows you how to make your Java web applications more responsive and dynamic by incorporating new Ajaxian features, including suggestion lists, drag-and-drop, and more. Java developers can choose between many different ways of incorporating Ajax, from building JavaScript into your applications "by hand" to using the new Google Web Toolkit (GWT). Ajax gives web developers the ability to build applications that are more interactive, more dynamic, more exciting and enjoyable for your users. If you're a Java developer and haven't tried Ajax, but would like to get started, this book is essential. Your users will be grateful.
+
+_http://my.safaribooksonline.com/book/programming/java/9780596101879?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
