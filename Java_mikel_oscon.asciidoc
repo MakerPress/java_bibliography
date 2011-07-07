@@ -1,4 +1,4 @@
-== Why OSOCN Java?
+== Why OSCON Java?
 
 _By Mike Loukides.  This essay originally appeared on the http://radar.oreilly.com/2011/06/oscon-java.html[O'Reilly Radar]._
  
