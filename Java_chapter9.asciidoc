@@ -17,7 +17,7 @@ _320 pages_
 
 This example-driven book offers a thorough introduction to Java's APIs for XML Web Services (JAX-WS) and RESTful Web Services (JAX-RS). This book takes a clear, pragmatic approach to these technologies by providing a mix of architectural overview, complete working code examples, and short yet precise instructions for compiling, deploying, and executing an application. You'll learn how to write web services from scratch and integrate existing services into your Java applications. Ideal for students as well as experienced programmers, this book is the concise guide you need to start working with these technologies right away.
 
-_http://my.safaribooksonline.com/book/programming/java/9780596521127?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+_http://my.safaribooksonline.com/book/programming/java/9780596521127?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 
 === Java SOA Cookbook
 
@@ -35,7 +35,7 @@ _752 pages_
 
 This book offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away. The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. 
 
-_http://my.safaribooksonline.com/book/programming/java/9780596520724?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+_http://my.safaribooksonline.com/book/programming/java/9780596520724?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 
 === Building Web Services with Java: Making Sense of XML, SOAP, WSDL, and UDDI, Second Edition
 
@@ -53,7 +53,7 @@ _816 pages_
 
 Sams has assembled a team of experts in web services to provide you with this detailed reference guide on XML, SOAP, USDL and UDDI. This second edition includes the newest standards for managing security, transactions, reliability and interoperability in web service applications. Go beyond the explanations of standards and find out how and why these tools were designed as they are and focus on practical examples of each concept. Download your source code from the publisher's website and work with a running example of a full enterprise solution. 
 
-_http://my.safaribooksonline.com/book/programming/java/9780672326417?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+_http://my.safaribooksonline.com/book/programming/java/9780672326417?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 
 === Implementing SOA Using Java EE
 
@@ -69,7 +69,7 @@ _384 pages_
 
 This book brings together all the practical insight you need to successfully architect enterprise solutions and implement them using SOA and Java EE technologies. Writing for senior IT developers, strategists, and enterprise architects, the authors cover everything from concepts to implementation, requirements to tools.  The authors first review the Java EE platform’s essential elements in the context of SOA and web services deployment, and demonstrate how Java EE has evolved into the world’s best open source solution for enterprise SOA. After discussing standards such as SOAP, WSDL, and UDDI, they walk through implementing each key aspect of SOA with Java EE. Step by step, you’ll learn how to integrate service-oriented web and business components of Java EE technologies with the help of process-oriented standards such as BPEL/CDL into a coherent, tiered enterprise architecture that can deliver a full spectrum of business services. 
 
-_http://my.safaribooksonline.com/book/programming/java/9780321492159?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+_http://my.safaribooksonline.com/book/programming/java/9780321492159?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 
 
 === SOA Using Java Web Services
@@ -88,4 +88,4 @@ _608 pages_
 
 This book  is a hands-on guide to implementing Web services and Service Oriented Architecture (SOA) with today’s Java EE 5 and Java SE 6 platforms. Author Mark Hansen presents in explicit detail the information that enterprise developers and architects need to succeed, from best-practice design techniques to state-of-the-art code samples. Hansen covers creating, deploying, and invoking Web services that can be composed into loosely coupled SOA applications. He begins by reviewing the “big picture,” including the challenges of Java-based SOA development and the limitations of traditional approaches. Next, he systematically introduces the latest Java Web Services (JWS) APIs and walks through creating Web services that integrate into a comprehensive SOA solution. Finally, he shows how application frameworks based on JWS can streamline the entire SOA development process and introduces one such framework: SOA-J.
 
-_http://my.safaribooksonline.com/book/programming/java/9780130449689?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+_http://my.safaribooksonline.com/book/programming/java/9780130449689?cid=1107-bibilio-java-link[Read it on Safari Books Online]_

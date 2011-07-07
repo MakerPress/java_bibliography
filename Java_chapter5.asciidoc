@@ -17,7 +17,7 @@ _389 pages_
 
 This book is a hands-on guide that is perfect for beginner-level game programmers who want to quickly and easily learn how to create games using the latest version of the Java SDK, Java 6. Written in simple language, the book teaches each new skill using engaging tutorials, followed by end-of-chapter questions and exercises to help reinforce what you've just learned. You'll begin with the basics of writing a simple game using vector graphics, move on to utilizing Java's advanced library to add animation and sound effects, and end by creating a professional, sprite-based game full of interesting artwork and details that you can share with others on the web.
 
-_http://my.safaribooksonline.com/book/programming/java/9781435458086?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+_http://my.safaribooksonline.com/book/programming/java/9781435458086?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 
 
 === Killer Game Programming in Java
@@ -90,4 +90,4 @@ _366 pages_
 
 This book is a hands-on guide that is perfect for beginner-level game programmers who want to quickly and easily learn how to create games using Java. Written in simple language, the book teaches each new skill using engaging tutorials, followed by end-of-chapter questions and exercises to help reinforce what you've just learned. You'll begin with the basics of writing a simple 2D game using vector graphics, move on to utilizing Java's advanced 2D library to add animation and sound effects, and end by creating a professional, sprite-based game full of interesting artwork and details that you can share with others on your own website!
 
-_http://my.safaribooksonline.com/book/programming/java/9781598634761?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
+_http://my.safaribooksonline.com/book/programming/java/9781598634761?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
