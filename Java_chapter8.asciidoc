@@ -3,10 +3,15 @@
 === Java Persistence with Hibernate
 
 _Manning Publications_
+
 _By Christian Bauer & Gavin King_ 
+
 _ISBN: 9781932394887_
+
 _November 2006_
+
 _$64.99 US_
+
 _880 pages_
 
 Persistence -- the ability of data to outlive an instance of a program -- is central to modern applications. Hibernate, the most popular Java persistence tool, provides automatic and transparent object/relational mapping so it's a snap to work with SQL databases in Java applications. Hibernate conforms to the new EJB 3.0 and Java Persistence 1.0 standards.This book explores Hibernate by developing an application that ties together hundreds of individual examples. You'll immediately dig into the rich programming model of Hibernate 3.2 and Java Persistence, working through queries, fetching strategies, caching, transactions, conversations, and more. You'll also appreciate the well-illustrated discussion of best practices in database design, object/relational mapping, and optimization techniques.
@@ -16,10 +21,15 @@ _http://my.safaribooksonline.com/book/programming/java/9781932394887?cid=1107-bi
 === Pro JPA 2: Mastering the Java Persistence API
 
 _Apress_
+
 _By Mike Keith & Merrick Schincariol_
+
 _ISBN: 9781430219569_
+
 _December 2009_
+
 _$49.99 US_
+
 _536 pages_
 
 Pro JPA 2 introduces, explains, and demonstrates how to use the new Java Persistence API (JPA). JPA provides Java developers with both the knowledge and insight needed to write Java applications that access relational databases through JPA. Authors Mike Keith and Merrick Schincariol take a hands-on approach to teaching by giving examples to illustrate each new concept of the API and showing how it is used in practice.
@@ -29,10 +39,15 @@ _http://my.safaribooksonline.com/book/programming/java/9781430219569?cid=1107-bi
 === Hibernate Recipes: A Problem-Solution Approach
 
 _Apress_
+
 _By Srinivas Guruzu & Gary Mak_
+
 _ISBN: 9781430227960_
+
 _July 2010_
+
 _$49.99 US_
+
 _312 pages_
 
 Hibernate continues to be the most popular out-of-the-box framework solution for Java Persistence and data/database accessibility techniques and patterns. It is used for e-commerce–based web applications as well as heavy-duty transactional systems for the enterprise. Gary Mak, the author of the best-selling Spring Recipes, now brings you this book, which contains a collection of code recipes and templates for learning and building Hibernate solutions for you and your clients. This book is your pragmatic day-to-day reference and guide for doing all things involving Hibernate. There are many books focused on learning Hibernate, but this book takes you further and shows how you can apply it practically in your daily work.
@@ -42,10 +57,15 @@ _http://my.safaribooksonline.com/book/programming/java/9781430227960?cid=1107-bi
 === Seam Framework: Experience the Evolution of Java EE, Second Edition
 
 _Prentice Hall_
+
 _By Michael Juntao Yuan, Jacob Orshalick & Thomas Heute_
+
 _ISBN: 9780137151660_
+
 _February 2009_
+
 _$44.99 US_
+
 _504 pages_
 
 The authors of the leading guide to Seam programming have systematically updated their text to reflect the major improvements introduced with Seam 2.x. This author team–all key Seam project contributors–teach Seam 2.x through detailed example applications that reveal how Seam simplifies many tasks that were previously difficult or impractical. Their robust descriptions are complemented by in-depth feature discussions that demonstrate how to use Seam’s power to the fullest. Whether you’re new to Seam programming or a seasoned Seam developer who wants to achieve deeper mastery of Seam 2.x, this book will be an indispensable resource.
@@ -55,10 +75,15 @@ _http://my.safaribooksonline.com/book/programming/java/9780137151660?cid=1107-bi
 === Cassandra: The Definitive Guide
 
 _O'Reilly Media_
+
 _By Eben Hewitt_
+
 _ISBN: 9781449390419_
+
 _November 2010_
+
 _$39.99 US_
+
 _336 pages_
 
 The rising popularity of Apache Cassandra rests on its ability to handle very large data sets that include hundreds of terabytes -- and that's why this distributed database has been chosen by organizations such as Facebook, Twitter, Digg, and Rackspace. With this hands-on guide, you'll get all the details and practical examples you need to understand Cassandra's non-relational database design and put it to work in a production environment. Author Eben Hewit pays special attention to data modeling, and demonstrates Cassandra's many advantages, including its high availability, eventual consistency model, and ability to scale easily. If you're a developer with a startup, you'll learn how to future-proof your application by implementing Cassandra before your storage needs become critical. Join the growing list data-intensive organizations that have come to rely on Cassandra's design.
@@ -68,10 +93,15 @@ _http://my.safaribooksonline.com/book/programming/java/9781449390419?cid=1107-bi
 === Hbase: The Definitive Guide
 
 _O'Reilly Media_
+
 _By Lars George_
+
 _ISBN: 9781449396107_
+
 _August 2011_
+
 _$39.99 US_
+
 _400 pages_
 
 If your organization is looking for a storage solution to accommodate a virtually endless amount of data, this book will show you how Apache HBase can fulfill your needs. As the open source implementation of Google's BigTable architecture, HBase scales to billions of rows and millions of columns, while ensuring that write and read performance remain constant. This book provides the details you require, whether you simply want to evaluate this high-performance, non-relational database, or put it into practice right away. HBase's adoption rate is beginning to climb, and several IT executives are asking pointed questions about this high-capacity database. This is the only book available to give you meaningful answers.
@@ -79,10 +109,15 @@ If your organization is looking for a storage solution to accommodate a virtuall
 === Harnessing Hibernate
 
 _O'Reilly Media_
+
 _By James Elliot, Timothy M. O’Brien & Ryan Fowler_
+
 _ISBN: 9780596517724_
+
 _April 2008_
+
 _$39.99 US_
+
 _384 pages_
 
 This book is an ideal introduction to the popular framework that lets Java developers work with information from a relational database easily and efficiently. Databases are a very different world than Java objects, and they often involve people with different skills and specializations. With Hibernate, bridging these two worlds is significantly easier, and with this book, you can get up to speed with Hibernate quickly. Rather than present you with another reference, this book lets you explore the system, from download and configuration through a series of projects that demonstrate how to accomplish a variety of practical goals. The new edition of this concise guide walks you through Hibernate's primary features, which include mapping from Java classes to database tables, and from Java data types to SQL data types. You will also learn about Hibernate's data query and retrieval facilities, and much more. By reading and following along with the examples, you can get your own Hibernate environment set up quickly and start using it for real-world tasks right away.
@@ -92,10 +127,15 @@ _http://my.safaribooksonline.com/book/programming/java/9780596517724?cid=1107-bi
 === NHibernate in Action
 
 _Manning Publications_
+
 _By Pierre Henri Kuaté, Christian Bauer, Gavin King & Tobin Harris_
+
 _ISBN: 9781932394924_
+
 _February 2009_
+
 _$49.99 US_
+
 _400 pages_
 
 In the classic style of Manning's "In Action" series, this book shows .NET developers how to use the NHibernate Object/Relational Mapping tool. The book shows how to implement complex business objects, and later teaches advanced techniques like caching and session management. Readers will discover how to implement persistence in a .NET application, and how to configure NHibernate to specify the mapping information between business objects and database tables. Readers will also be introduced to the internal architecture of NHibernate by progressively building a complete sample application using Agile methodologies.
@@ -105,10 +145,15 @@ _http://my.safaribooksonline.com/book/programming/java/9781932394924?cid=1107-bi
 === NHibernate with ASP.NET Problem-Design-Solution
 
 _Wrox Blox_
+
 _By Scott Millett_
+
 _ISBN:  9780470488201_
+
 _March 2009_
+
 _$9.99 US_
+
 _123 pages_
 
 This Wrox Blox demonstrates how to start using NHibernate in line business applications using ASP.NET and VB.NET. Using NHibernate will speed up your application development by removing the need to build your own Data Access Layer (DAL). In addition, you can focus solely on the business problem instead of the infrastructure concerns. Using a simple demo application as an example, this Wrox Blox shows how easy it is to get started with NHibernate and build your DAL in minutes instead of hours. Readers will also see how the POCO pattern enables you to keep your DAL as unobtrusive as possible as well as being interchangeable for future DAL implementations. You will also see how NHibernate has many enterprise patterns built into it, like the Unit of Work pattern and the Identity Map.
@@ -118,24 +163,33 @@ _http://my.safaribooksonline.com/book/programming/java/9780470488201?cid=1107-bi
 === Beginning Hibernate: From Novice to Professional
 
 _Apress_
+
 _By Dave Minter & Jeff Linwood_
+
 _ISBN: 9781590596937_
+
 _August 2006_
+
 _$39.99 US_
+
 _360 pages_
 
 This book packs in brand new information about the latest release of the Hibernate 3.2.x persistence layer and provides a clear introduction to the current standard for object-relational persistence in Java. Experienced author Dave Minter and contributor Jeff Linwood provide more in-depth examples than any other books for Hibernate beginners. Since the book keeps its focus on Hibernate without wasting time on nonessential third-party tools, you’ll be able to immediately start building transaction-based engines and applications.
 
 _http://my.safaribooksonline.com/book/programming/java/9781590596937?cid=1107-bibilio-java-link[Read it on Safari Online Books]_
 
-
 === Hibernate Search in Action
 
 _Manning Publications_
+
 _By Emmanuel Bernard & John Griffin B.A_
+
 _ISBN: 9781933988641_
+
 _December 2008_
+
 _$49.99 US_
+
 _450 pages_
 
 Hibernate Search builds on the Lucene feature set and offers an easy-to-implement interface that integrates seamlessly with Hibernate-the leading data persistence solution for Java applications. This book introduces both the principles of enterprise search and the implementation details a Java developer will need to use Hibernate Search effectively. This book blends the insights of the Hibernate Search lead developer with the practical techniques required to index and manipulate data, assemble and execute search queries, and create smart filters for better search results. Along the way, the reader masters performance-boosting concepts like using Hibernate Search in a clustered environment and integrating with the features already in your applications.
@@ -145,10 +199,15 @@ _http://my.safaribooksonline.com/book/programming/java/9781933988641?cid=1107-bi
 === Database Programming with JDBC & Java, Second Edition
 
 _O'Reilly Media_
+
 _By George Reese_
+
 _ISBN: 9781565926165_
+
 _August 2000_
+
 _$49.99 US_
+
 _348 pages_
 
 Java and databases make a powerful combination. Getting the two sides to work together, however, takes some effort--largely because Java deals in objects while most databases do not. This book describes the standard Java interfaces that make portable object-oriented access to relational databases possible and offers a robust model for writing applications that are easy to maintain. It introduces the JDBC and RMI packages and uses them to develop three-tier applications (applications divided into a user interface, an object-oriented logic component, and an information store). The book's key contribution is a set of patterns that let developers isolate critical tasks like object creation, information storage and retrieval, and the committing or aborting of transactions.
