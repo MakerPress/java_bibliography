@@ -4,175 +4,1266 @@
 <?asciidoc-numbered?>
 
 <book lang="en">
-<title>Java Pocket Bibliography</title>
+<title>Java Bibliography Pocket Guide</title>
 <bookinfo>
-    <title>Java Pocket Bibliography</title>
+    <title>Java Bibliography Pocket Guide</title>
 <isbn>9781449311896</isbn>
   <edition>1</edition>
   <author>
     <firstname>Editors of Safari Books Online</firstname>
   </author>
 </bookinfo>
-<preface id="_preface">
-<title>Preface</title>
-<remark>Skip to the first chapter for asciidoc markup demo; below is just "passthrough" DocBook markup...</remark>
-
-  <sect1>
-    <title>Conventions Used in This Book</title>
-
-    <para>The following typographical conventions are used in this
-    book:</para>
-
-    <variablelist>
-      <varlistentry>
-        <term>Italic</term>
-
-        <listitem>
-          <para>Indicates new terms, URLs, email addresses, filenames, and
-          file extensions.</para>
-        </listitem>
-      </varlistentry>
-
-      <varlistentry>
-        <term><literal>Constant width</literal></term>
-
-        <listitem>
-          <para>Used for program listings, as well as within paragraphs to
-          refer to program elements such as variable or function names,
-          databases, data types, environment variables, statements, and
-          keywords.</para>
-        </listitem>
-      </varlistentry>
-
-      <varlistentry>
-        <term><userinput>Constant width bold</userinput></term>
-
-        <listitem>
-          <para>Shows commands or other text that should be typed literally by
-          the user.</para>
-        </listitem>
-      </varlistentry>
-
-      <varlistentry>
-        <term><replaceable>Constant width italic</replaceable></term>
-
-        <listitem>
-          <para>Shows text that should be replaced with user-supplied values
-          or by values determined by context.</para>
-        </listitem>
-      </varlistentry>
-    </variablelist>
-
-    <tip>
-      <para>This icon signifies a tip, suggestion, or general note.</para>
-    </tip>
-
-    <caution>
-      <para>This icon indicates a warning or caution.</para>
-    </caution>
-  </sect1>
-
-  <sect1>
-    <title>Using Code Examples</title>
-
-    <para>This book is here to help you get your job done. In general, you may
-    use the code in this book in your programs and documentation. You do not
-    need to contact us for permission unless you’re reproducing a significant
-    portion of the code. For example, writing a program that uses several
-    chunks of code from this book does not require permission. Selling or
-    distributing a CD-ROM of examples from O’Reilly books does require
-    permission. Answering a question by citing this book and quoting example
-    code does not require permission. Incorporating a significant amount of
-    example code from this book into your product’s documentation does require
-    permission.</para>
-
-    <para>We appreciate, but do not require, attribution. An attribution
-    usually includes the title, author, publisher, and ISBN. For example:
-    “<emphasis>Book Title</emphasis> by Some Author (O’Reilly). Copyright 2011
-    Some Copyright Holder, 978-0-596-xxxx-x.”</para>
-
-    <para>If you feel your use of code examples falls outside fair use or the
-    permission given above, feel free to contact us at
-    <email>permissions@oreilly.com</email>.</para>
-  </sect1>
-
-  <sect1>
-    <title>Safari® Books Online</title>
-
-    <note role="safarienabled">
-      <para>Safari Books Online is an on-demand digital library that lets you
-      easily search over 7,500 technology and creative reference books and
-      videos to find the answers you need quickly.</para>
-    </note>
-
-    <para>With a subscription, you can read any page and watch any video from
-    our library online. Read books on your cell phone and mobile devices.
-    Access new titles before they are available for print, and get exclusive
-    access to manuscripts in development and post feedback for the authors.
-    Copy and paste code samples, organize your favorites, download chapters,
-    bookmark key sections, create notes, print out pages, and benefit from
-    tons of other time-saving features.</para>
-
-    <para>O’Reilly Media has uploaded this book to the Safari Books Online
-    service. To have full digital access to this book and others on similar
-    topics from O’Reilly and other publishers, sign up for free at <ulink
-    role="orm:hideurl:ital"
-    url="http://my.safaribooksonline.com/?portal=oreilly">http://my.safaribooksonline.com</ulink>.</para>
-  </sect1>
-
-  <sect1>
-    <title>How to Contact Us</title>
-
-    <para>Please address comments and questions concerning this book to the
-    publisher:</para>
-
-    <simplelist type="vert">
-      <member>O’Reilly Media, Inc.</member>
-
-      <member>1005 Gravenstein Highway North</member>
-
-      <member>Sebastopol, CA 95472</member>
-
-      <member>800-998-9938 (in the United States or Canada)</member>
-
-      <member>707-829-0515 (international or local)</member>
-
-      <member>707-829-0104 (fax)</member>
-    </simplelist>
-
-    <para>We have a web page for this book, where we list errata, examples,
-    and any additional information. You can access this page at:</para>
-
-    <simplelist type="vert">
-      <member><ulink
-      url="http://www.oreilly.com/catalog/&lt;catalog page&gt;"></ulink></member>
-    </simplelist>
-
-    <remark>Don’t forget to update the &lt;url&gt; attribute, too.</remark>
-
-    <para>To comment or ask technical questions about this book, send email
-    to:</para>
-
-    <simplelist type="vert">
-      <member><email>bookquestions@oreilly.com</email></member>
-    </simplelist>
-
-    <para>For more information about our books, courses, conferences, and
-    news, see our website at <ulink
-    url="http://www.oreilly.com"></ulink>.</para>
-
-    <para>Find us on Facebook: <ulink
-    url="http://facebook.com/oreilly"></ulink></para>
-
-    <para>Follow us on Twitter: <ulink
-    url="http://twitter.com/oreillymedia"></ulink></para>
-
-    <para>Watch us on YouTube: <ulink
-    url="http://www.youtube.com/oreillymedia"></ulink></para>
-  </sect1>
-</preface>
-<chapter id="chapter_id">
-<title>Chapter Title</title>
-<simpara>Some text&#8230;</simpara>
+<chapter id="_java">
+<title>Java</title>
+<simpara>In the early 1990s, a team of developers at Sun Microsystems, led by James Gosling, designed and implemented a new computer language: Java. The language was object oriented, was compiled into an intermediate form called Java Bytecode, and those bytecode instructions were run on a virtual machine called the Java VM. Java, at the time, was a revolution in itself. It quickly became the language of a new generation of software developers who were writing small applications for the web, server applications for the enterprise, and even desktop applications. Today many new languages compile into Java bytecode and are run on top of the Java VM such as Scala, and variants of Python, Ruby, and Erlang. Effectively Java has inspired a whole new generation of portable devices, as well as being a component of many consumer electronics devices such as Blu-ray Disc players, and set-top boxes. Java is also the language used to write programs for many of the world&#8217;s mobile devices, including Android. If you&#8217;re interested in Android development, there is also a bibliography specific to that platform. Oracle acquired Sun Microsystems in January of 2010 and became the owner of the Java technology. So far, this has not changed how Java has been positioned in the market.</simpara>
+<simpara>Java is used for a large proportion of open source software projects world-wide, and because of this the types of books written about Java are also varied in nature. There are a great many excellent learning reference books, class library reference books, and books on enterprise and web development. There are books that cover Java Virtual Machine based languages, such as Scala and JRuby. The Spring Framework is a highly popular, open source, modular, infinitely configurable framework written in Java that is also covered very well by technical book writers. Many games are written in Java, and we&#8217;ve included a few books on Game programming. If you are writing web services, you&#8217;ll want to read about Service Oriented Architecture as well as storing and retrieving data using one of the many Java persistence frameworks.</simpara>
+<simpara>We have chosen a selection of popular books in this bibliography that span Java language topics with the intent that you will be able to use it on your path. From beginning learning the language through to many of the advanced topics that Java will enable you to perform, we hope you&#8217;ll use these books to your advantage.</simpara>
+</chapter>
+<chapter id="_learning_java">
+<title>Learning Java</title>
+<sect1 id="_head_first_java">
+<title>Head First Java</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Kathy Sierra &amp; Bert Bates</emphasis>
+<emphasis>ISBN: 9780596009205</emphasis>
+<emphasis>February 2005</emphasis>
+<emphasis>$44.95 US</emphasis>
+<emphasis>720 pages</emphasis></simpara>
+<simpara>Learning a complex new language is no easy task especially when it s an object-oriented computer programming language like Java. This book combines puzzles, strong visuals, mysteries, and soul-searching interviews with famous Java objects to engage you in many different ways. It&#8217;s fast, it&#8217;s fun, and it&#8217;s effective. You&#8217;ll learn everything from the Java fundamentals to advanced topics, including threads, network sockets, and distributed programming with RMI.  By exploiting how your brain works, this book compresses the time it takes to learn and retain&#8212;complex information. Its unique approach not only shows you what you need to know about Java syntax, it teaches you to think like a Java programmer. If you want to be bored, buy some other book. But if you want to understand Java, this book&#8217;s for you.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/0596009208?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_sams_teach_yourself_java_in_24_hours_fifth_edition">
+<title>Sams Teach Yourself Java in 24 Hours, Fifth Edition</title>
+<simpara><emphasis>Sams</emphasis>
+<emphasis>By Rogers Cadenhead</emphasis>
+<emphasis>ISBN: 9780672330766</emphasis>
+<emphasis>October 2009</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>432 pages</emphasis></simpara>
+<simpara>In just 24 lessons of one hour or less, you can learn how to create Java applications with the free NetBeans visual editing tools. Using a straightforward, step-by-step approach, popular author Rogers Cadenhead helps you master the skills and technology you need to create desktop and web programs, web services, and even a browser game in Java. Full-color figures and clear step-by-step instructions visually show you how to program with Java. Quizzes and Exercises at the end of each chapter help you test your knowledge.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780672330766?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_programming_24_hour_trainer">
+<title>Java Programming 24-Hour Trainer</title>
+<simpara><emphasis>Wrox</emphasis>
+<emphasis>By Yakov Fain</emphasis>
+<emphasis>ISBN: 9780470889640</emphasis>
+<emphasis>February 2011</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>504 pages</emphasis></simpara>
+<simpara>As one of the most popular software languages for building Web applications, Java is often the first programming language developers learn. With this invaluable book-and-DVD package, Java authority Yakov Fain fully covers Java&#8217;s new features as well as its language extensions, classes and class methods, and the Swing Application Framework. For each lesson that he discusses in the book, there is an accompanying instructional video on the DVD to reinforce your learning experience.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780470889640?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_core_java_volume_i_fundamentals_eighth_edition">
+<title>Core Java, Volume I–Fundamentals, Eighth Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Cay S. Horstmann &amp; Gary Cornell</emphasis>
+<emphasis>ISBN: 9780132354769</emphasis>
+<emphasis>September 2007</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>864 pages</emphasis></simpara>
+<simpara>This book is the definitive guide to Java for serious programmers who want to put Java to work on real projects. Fully updated for the new Java SE 6 platform, this no-nonsense tutorial and reliable reference illuminates the most important language and library features with thoroughly tested real-world examples. The example programs have been carefully crafted to be easy to understand as well as useful in practice, so you can rely on them as an outstanding starting point for your own code. The authors concentrate on the fundamental concepts of the Java language, along with the basics of user-interface programming.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780132354769?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_for_programmers_deitel_developer_series_second_edition">
+<title>Java for Programmers: Deitel® Developer Series, Second Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Paul Deitel &amp; Harvey Deitel</emphasis>
+<emphasis>ISBN: 9780132821544</emphasis>
+<emphasis>April 2011</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>1168 pages</emphasis></simpara>
+<simpara>Written for programmers with a background in high-level language programming, this book applies the Deitel signature live-code approach to teaching programming and explores the Java language and Java APIs in depth. The book presents the concepts in the context of fully tested programs, complete with syntax shading, code highlighting, line-by-line code descriptions and program outputs. The book features 220 Java applications with over 18,000 lines of proven Java code, and hundreds of tips that will help you build robust applications.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780132821544?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_how_to_program_seventh_edition">
+<title>Java How to Program, Seventh Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Paul Deitel &amp; Harvey Deitel</emphasis>
+<emphasis>ISBN: 9780132222204</emphasis>
+<emphasis>December 2006</emphasis>
+<emphasis>$85.00 US</emphasis>
+<emphasis>1500 pages</emphasis></simpara>
+<simpara>The Deitels' groundbreaking How to Program series offers unparalleled breadth and depth of object-oriented programming concepts and intermediate-level topics for further study. This survey of Java programming contains an extensive OOD/UML 2 case study on developing an automated teller machine. The Seventh Edition has been extensively fine-tuned and is completely up-to-date with Sun Microsystems, Inc.’s latest Java release–Java Standard Edition (Java SE) 6</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780136085676?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_fundamentals_i_and_ii_video_training">
+<title>Java Fundamentals I and II (Video Training)</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Paul Deitel</emphasis>
+<emphasis>ISBN: 9780137150021</emphasis>
+<emphasis>February 2008</emphasis></simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/video/programming/java/9780137131297">See it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_learning_java_third_edition">
+<title>Learning Java, Third Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Patrick Niemeyer &amp; Jonathan Knudsen</emphasis>
+<emphasis>ISBN: 9780596008734</emphasis>
+<emphasis>April 2005</emphasis>
+<emphasis>$44.95 US</emphasis>
+<emphasis>984 pages</emphasis></simpara>
+<simpara>This book is the most widely sought introduction to the programming language that&#8217;s changed the way we think about computing. Our updated third edition takes an objective, no-nonsense approach to the new features in Java 5.0, some of which are drastically different from the way things were done in any previous versions. The most essential change is the addition of "generics", a feature that allows developers to write, test, and deploy code once, and then reuse the code again and again for different data types. The beauty of generics is that more problems will be caught during development, and this book will show you exactly how it&#8217;s done. This book addresses all of the important uses of Java, such as web applications, servlets, and XML that are increasingly driving enterprise applications.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596008734?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_great_java_video">
+<title>Great Java (video)</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Mark Reese &amp; Brett McLaughlin</emphasis>
+<emphasis>ISBN: 9781449380182</emphasis>
+<emphasis>November 2009</emphasis>
+<emphasis>$59.99 US</emphasis></simpara>
+<simpara>This video will teach you the fundamentals of Java, from the basics of compilation through methods, objects, and the key concepts of good programming. By the time you&#8217;re through these lessons, you&#8217;ll be programming, and programming well. Throughout the course, you&#8217;ll progressively learn to code and compile programs, work extensively with text, and declare, convert, and cast between data types. You&#8217;ll also read files, get user input, and build arrays, including multi-dimensional arrays. When you buy this video you get access to an entire video library of lessons-including lessons that aren&#8217;t available yet!</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/video/programming/java/9781449380182?cid=1107-bibilio-java-link">See it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_for_dummies">
+<title>Java For Dummies</title>
+<simpara><emphasis>John Wiley &amp; Sons</emphasis>
+<emphasis>By Barry Burd</emphasis>
+<emphasis>ISBN: 9780470087169</emphasis>
+<emphasis>December  2006</emphasis>
+<emphasis>$29.99 US</emphasis>
+<emphasis>384 pages</emphasis></simpara>
+<simpara>Even if you&#8217;re new to Java programming—or to programming in general—you can get up and running on this wildly popular language in a hurry. This book makes it easy! From how to install and run Java to understanding classes and objects and juggling values with arrays and collections, you will get up to speed on the new features of Java 6 in no time.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780470087169?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_sams_teach_yourself_java_6_in_21_days">
+<title>Sams Teach Yourself Java 6 in 21 Days</title>
+<simpara><emphasis>Sams</emphasis>
+<emphasis>By Rogers Cadenhead &amp; Laura Lemay</emphasis>
+<emphasis>ISBN: 9780672329432</emphasis>
+<emphasis>May 2007</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>720 pages</emphasis></simpara>
+<simpara>In just 21 days, you can acquire the knowledge and skills necessary to develop three kinds of programs with Java: applications on your computer, servlets on a web server, and browser-launched Java Web Start applications. By following the 21 carefully organized lessons in this book, anyone can learn the basics of Java programming. You can work through each chapter sequentially to make sure you thoroughly understand all of the concepts and methodologies, or you can focus on specific lessons to learn the techniques that interest you most.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780672329432?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_a_programmer_s_guide_to_java_scjp_certification_a_comprehensive_primer_third_edition">
+<title>A Programmer’s Guide to Java SCJP Certification: A Comprehensive Primer, Third Edition</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Khalid A. Mughal &amp; Rolf W. Rasmussen</emphasis>
+<emphasis>ISBN: 9780321585738</emphasis>
+<emphasis>December 2008</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>1088 pages</emphasis></simpara>
+<simpara>This book will help you prepare for and pass the Sun Certified Programmer for the Java Platform SE 6 (CX-310-065) Exam. It is written for any experienced programmer (with or without previous knowledge of Java) interested in mastering the Java programming language and passing the SCJP 1.6 Exam. It provides detailed coverage of all exam topics and objectives, readily runnable code examples, programming exercises, extensive review questions, and a new mock exam. In addition, as a comprehensive primer to the Java programming language, this book is an invaluable reference tool.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/certification/scjp/9780321585738?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_head_first_design_patterns">
+<title>Head First Design Patterns</title>
+<simpara><emphasis>O’Reilly Media</emphasis>
+<emphasis>By Eric T Freeman, Elisabeth Robson, Bert Bates &amp; Kathy Sierra</emphasis>
+<emphasis>ISBN: 9780596007126</emphasis>
+<emphasis>October 2004</emphasis>
+$44.95 US_
+<emphasis>688 pages</emphasis></simpara>
+<simpara>At any given moment, somewhere in the world someone struggles with the same software design problems you have. You know you don&#8217;t want to reinvent the wheel (or worse, a flat tire), so you look to Design Patterns&#8212;the lessons learned by those who&#8217;ve faced the same problems. With this book you will learn the real OO design principles and why everything your boss told you about inheritance might be wrong (and what to do instead). This book will load patterns into your brain in a way that sticks. In a way that lets you put them to work immediately. In a way that makes you better at solving software design problems, and better at speaking the language of patterns with others on your team.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596007126?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_the_good_parts">
+<title>Java: The Good Parts</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Jim Waldo</emphasis>
+<emphasis>ISBN: 9780596803735</emphasis>
+<emphasis>April 2010</emphasis>
+<emphasis>$29.99 US</emphasis>
+<emphasis>192 pages</emphasis></simpara>
+<simpara>In this book, one of the most highly respected developers in the Java world peels away 15 years of additions and changes to reveal the very best parts of Java, and shows you how those parts alone will help you build better applications. You may not like some of the features this book reveals, but you&#8217;ll actually write better code with them. Java: The Good Parts is essential for every Java developer, from beginners to advanced programmers.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596803735?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_intermediate_java">
+<title>Intermediate Java</title>
+<sect1 id="_effective_java_second_edition">
+<title>Effective Java, Second Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Joshua Bloch</emphasis>
+<emphasis>ISBN: 9780321356680</emphasis>
+<emphasis>May 2008</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>384 pages</emphasis></simpara>
+<simpara>Are you looking for a deeper understanding of the Java™ programming language so that you can write code that is clearer, more correct, more robust, and more reusable? Look no further! This book brings together seventy-eight indispensable programmer’s rules of thumb: working, best-practice solutions for the programming challenges you encounter every day. This highly anticipated new edition of the classic, Jolt Award-winning work has been thoroughly updated to cover Java SE 5 and Java SE 6 features introduced since the first edition. Bloch explores new design patterns and language idioms, showing you how to make the most of features ranging from generics to enums, annotations to autoboxing.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321356680?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_data_structures_and_algorithms_using_java">
+<title>Data Structures and Algorithms Using Java</title>
+<simpara><emphasis>Jones &amp; Bartlett Learning</emphasis>
+<emphasis>By William McAllister</emphasis>
+<emphasis>ISBN: 9780763757564</emphasis>
+<emphasis>December 2008</emphasis>
+<emphasis>$82.95 US</emphasis>
+<emphasis>580 pages</emphasis></simpara>
+<simpara>This book covers the entire recommended syllabus put forth by the Association of Computing Machinery (ACM) standard curriculum guidelines for "Algorithms and Data Structures." The authors main motivation for writing the text was to produce a text that was more readable and instructional than those currently in print without compromising the scope of the CS103 course material. McAllister does just that with his unique student-friendly pedagogical approach and organizational structure. The pedagogical features of the text, based on the author&#8217;s 30 years of teaching experience, include succinct code examples, a unique common template used as the organizational basis of each chapter, the use of pseudocode to present the major algorithms developed in the text, 300 carefully designed figures, and a review of Java.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780763757564?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_ant_in_action_java_development_with_ant_second_edition">
+<title>Ant in Action: Java Development with Ant, Second Edition</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Steve Loughran &amp; Erik Hatcher</emphasis>
+<emphasis>ISBN: 9781932394801</emphasis>
+<emphasis>July 2007</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>600 pages</emphasis></simpara>
+<simpara>This book introduces Ant and how to use it for test-driven Java application development. A single application of increasing complexity, followed throughout the book, shows how an application evolves and how to handle the problems of building and testing. Reviewers have praised the book&#8217;s coverage of large-projects, Ant&#8217;s advanced features, and the details and depth of the discussion are unavailable elsewhere.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781932394801?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_maven_the_definitive_guide_first_edition">
+<title>Maven: The Definitive Guide, First Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+B_y Sonatype Company_
+<emphasis>ISBN: 9780596517335</emphasis>
+<emphasis>September 2008</emphasis>
+<emphasis>$34.99 US</emphasis>
+<emphasis>480 pages</emphasis></simpara>
+<simpara>For too long, developers have worked on disorganized application projects, where every part seemed to have its own build system, and no common repository existed for information about the state of the project. Now there&#8217;s help. The long-awaited official documentation to Maven is here. Written by Maven creator Jason Van Zyl and his team at Sonatype, this book clearly explains how this tool can bring order to your software development projects. Maven is largely replacing Ant as the build tool of choice for large open source Java projects because, unlike Ant, Maven is also a project management tool that can run reports, generate a project website, and facilitate communication among members of a working team. This book will help you manage development projects for software, web applications, and enterprise applications. And it comes straight from the source.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596517335?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_building_and_testing_with_gradle">
+<title>Building and Testing with Gradle</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Tim Berglund, Matthew McCullough &amp; Ken Sipe</emphasis>
+<emphasis>ISBN: 9781449304638</emphasis>
+<emphasis>July 2011</emphasis>
+<emphasis>$24.99 US</emphasis>
+<emphasis>110 pages</emphasis></simpara>
+<simpara>Build and test software written in Java and many other languages with Gradle, the open source project automation tool that’s getting a lot of attention. This concise introduction provides numerous code examples to help you explore Gradle, both as a build tool and as a complete solution for automating the compilation, test, and release process of simple and enterprise-level applications. Discover how Gradle improves on the best ideas of Ant, Maven, and other build tools, with standards for developers who want them and lots of flexibility for those who prefer less structure.</simpara>
+</sect1>
+<sect1 id="_algorithms_in_java_third_edition_parts_1_4_fundamentals_data_structures_sorting_searching">
+<title>Algorithms in Java, Third Edition, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Robert Sedgewick</emphasis>
+<emphasis>ISBN: 9780201361209</emphasis>
+<emphasis>July 2002</emphasis>
+<emphasis>$69.99 US</emphasis>
+<emphasis>768 pages</emphasis></simpara>
+<simpara>This edition of Robert Sedgewick&#8217;s popular work provides current and comprehensive coverage of important algorithms for Java programmers. Michael Schidlowsky and Sedgewick have developed new Java implementations that both express the methods in a concise and direct manner and provide programmers with the practical means to test them on real applications. Many new algorithms are presented, and the explanations of each algorithm are much more detailed than in previous editions. A new text design and detailed, innovative figures, with accompanying commentary, greatly enhance the presentation. The third edition retains the successful blend of theory and practice that has made Sedgewick&#8217;s work an invaluable resource for more than 400,000 programmers! Whether you are learning the algorithms for the first time or wish to have up-to-date reference material that incorporates new programming styles with classic and new algorithms, you will find a wealth of useful information in this book.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780201361209?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_object_oriented_programming_using_c_and_java">
+<title>Object-oriented Programming Using C++ and Java</title>
+<simpara><emphasis>Pearson Education India</emphasis>
+<emphasis>By Ramesh Vasappanavara, Gautam Vasappanavara &amp; Anand Vasappanavara</emphasis>
+<emphasis>Pearson Education India</emphasis>
+<emphasis>ISBN: 9788131754559</emphasis>
+<emphasis>May 2011</emphasis>
+<emphasis>500 pages</emphasis></simpara>
+<simpara>This book offers contemporary, comprehensive and in-depth coverage of all the concepts of object-oriented technologies, with an emphasis on problem-solving approaches as applied to C++ and Java Programming paradigms.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9788131754559?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_and_xml_third_edition">
+<title>Java and XML, Third Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Brett McLaughlin &amp; Justin Edelson</emphasis>
+<emphasis>ISBN: 9780596101497</emphasis>
+<emphasis>December 2006</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>480 pages</emphasis></simpara>
+<simpara>This third edition covers all major Java XML processing libraries, including full coverage of the SAX, DOM, StAX, JDOM, and dom4j APIs as well as the latest version of the Java API for XML Processing (JAXP) and Java Architecture for XML Binding (JAXB). The chapters on web technology have been entirely rewritten to focus on the today&#8217;s most relevant topics: syndicating content with RSS and creating Web 2.0 applications.  If you are developing with Java and need to use XML, or think that you will be in the future; if you&#8217;re involved in the new peer-to-peer movement, messaging, or web services; or if you&#8217;re developing software for electronic commerce, this book will be an indispensable companion.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596101497?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_program_development_in_java_abstraction_specification_and_object_oriented_design">
+<title>Program Development in Java: Abstraction, Specification, and Object-Oriented Design</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Barbara Liskov &amp; John Guttag</emphasis>
+<emphasis>ISBN: 9780201657685</emphasis>
+<emphasis>June 2000</emphasis>
+<emphasis>$69.99 US</emphasis>
+<emphasis>464 pages</emphasis></simpara>
+<simpara>Written by a world-renowned expert on programming methodology, and the winner of the 2008 Turing Award, this book shows how to build production-quality programs&#8212;programs that are reliable, easy to maintain, and quick to modify. Its emphasis is on modular program construction: how to get the modules right and how to organize a program as a collection of modules. The book presents a methodology effective for either an individual programmer, who may be writing a small program or a single module in a larger one; or a software engineer, who may be part of a team developing a complex program comprised of many modules. Both audiences will acquire a solid foundation for object-oriented program design and component-based software development from this methodology. The Java programming language is used for the book&#8217;s examples. However, the techniques presented are language independent, and an introduction to key Java concepts is included for programmers who may not be familiar with the language.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780201657685?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_puzzlers_traps_pitfalls_and_corner_cases">
+<title>Java Puzzlers: Traps, Pitfalls, and Corner Cases</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Joshua Bloch &amp; Neal Gafter</emphasis>
+<emphasis>ISBN: 9780321336781</emphasis>
+<emphasis>June 2005</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>312 pages</emphasis></simpara>
+<simpara>In this book Bloch and Gafter dive deep into the subtleties of the Java programming language and its core libraries. Illustrated with visually stunning optical illusions, the book features 95 diabolical puzzles that educate and entertain. Anyone with a working knowledge of Java will understand the puzzles, but even the most seasoned veteran will find them challenging. The solutions go well beyond a simple explanation of the program&#8217;s behavior&#8212;they show you how to avoid the underlying traps and pitfalls for good. A handy catalog of traps and pitfalls at the back of the book provides a concise taxonomy for future reference. Solve these puzzles and you&#8217;ll never again fall prey to the counterintuitive or obscure behaviors that can fool even the most experienced programmers.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321336781?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_thinking_recursively_with_java">
+<title>Thinking Recursively with Java</title>
+<simpara><emphasis>John Wiley &amp; Sons</emphasis>
+<emphasis>By Eric Roberts</emphasis>
+<emphasis>ISBN: 9780471701460</emphasis>
+<emphasis>November 2005</emphasis>
+<emphasis>$44.54 US</emphasis>
+<emphasis>187 pages</emphasis></simpara>
+<simpara>To provide students with a more effective treatment of this difficult topic, John Wiley and Sons, Inc. published Thinking Recursively by Eric Roberts. Since its publication in 1986, Thinking Recursively has become a classic in a field in which books quickly become obsolete. By focusing on effective problem-solving strategies that enable students to "think recursively," this text has helped many students over the conceptual hurdle that recursion so often represents. To celebrate the 20th anniversary of its initial publication, John Wiley and Sons is publishing Thinking Recursively with Java, making the book even more relevant to today&#8217;s students.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780471701460?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_6_new_features_a_tutorial">
+<title>Java 6 New Features: A Tutorial</title>
+<simpara><emphasis>Brainy Software</emphasis>
+<emphasis>By Budi Kurniawan</emphasis>
+<emphasis>ISBN: 9780975212882</emphasis>
+<emphasis>October 2006</emphasis>
+<emphasis>320 pages</emphasis></simpara>
+<simpara>For seasoned Java programmers who want to stay up to date on the latest Java tools, this guide discusses the new features of Java 6. This handbook to the new version includes updated information on Web services, a JavaScript engine that allows access to information in a Java program, JDBC 4.0, JAXB 2.0, XML digital signature APIs, more sophisticated Swing components, and improvements in Java 2D that includes a GIF image writer.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780975212882?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_advanced_java">
+<title>Advanced Java</title>
+<sect1 id="_java_concurrency_in_practice">
+<title>Java Concurrency in Practice</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Brian Goetz, Tim Peieris, Joshua Bloch, Joseph Bowbeer, David Holmes &amp; Doug Lea</emphasis>
+<emphasis>ISBN: 9780321349606</emphasis>
+<emphasis>May 2006</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>384 pages</emphasis></simpara>
+<simpara>Threads are a fundamental part of the Java platform. As multicore processors become the norm, using concurrency effectively becomes essential for building high-performance applications. Java SE 5 and 6 are a huge step forward for the development of concurrent applications, with improvements to the Java Virtual Machine to support high-performance, highly scalable concurrent classes and a rich set of new concurrency building blocks. In this book, the creators of these new facilities explain not only how they work and how to use them, but also the motivation and design patterns behind them. This book arms readers with both the theoretical underpinnings and concrete techniques for building reliable, scalable, maintainable concurrent applications. Rather than simply offering an inventory of concurrency APIs and mechanisms, it provides design rules, patterns, and mental models that make it easier to build concurrent programs.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321349606?cid=1107-bibilio-java-link">Read in Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_power_tools">
+<title>Java Power Tools</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By John Ferguson Smart</emphasis>
+<emphasis>ISBN: 9780596527938</emphasis>
+<emphasis>April 2008</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>912 pages</emphasis></simpara>
+<simpara>All true craftsmen need the best tools to do their finest work, and programmers are no different. This book delivers 30 open source tools designed to improve the development practices of Java developers in any size team or organization. Each chapter includes a series of short articles about one particular tool&#8201;&#8212;&#8201;whether it&#8217;s for build systems, version control, or other aspects of the development process&#8201;&#8212;&#8201;giving you the equivalent of 30 short reference books in one package. No matter which development method your team chooses, whether it&#8217;s Agile, RUP, XP, SCRUM, or one of many others available, this book provides practical techniques and tools to help you optimize the process.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596527938?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_hadoop_the_definitive_guide_second_edition">
+<title>Hadoop: The Definitive Guide, Second Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Tom White</emphasis>
+<emphasis>ISBN: 9781449389734</emphasis>
+<emphasis>September 2010</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>626 pages</emphasis></simpara>
+<simpara>Apache Hadoop is ideal for organizations with a growing need to store and process massive application datasets. With this book, programmers will find details for analyzing large datasets with Hadoop, and administrators will learn how to set up and run Hadoop clusters. The book includes case studies that illustrate how Hadoop is used to solve specific problems.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/databases/hadoop/9781449398644?cid=1107-biblio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_hadoop_in_action">
+<title>Hadoop in Action</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Chuck Lam</emphasis>
+<emphasis>ISBN: 9781935182191</emphasis>
+<emphasis>December 2010</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>336 pages</emphasis></simpara>
+<simpara>This book will lead the reader from obtaining a copy of Hadoop to setting it up in a cluster and writing data analytic programs. It will explain how to use Hadoop and present design patterns and practices of programming MapReduce. MapReduce is a complex idea both conceptually and in its implementation, and Hadoop users are challenged to learn all the knobs and levers for running Hadoop. This book takes you beyond the mechanics of running Hadoop, teaching you to write meaningful programs in a MapReduce framework. This book assumes the reader will have a basic familiarity with Java, as most code examples will be written in Java.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781935182191?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_test_driven_practical_tdd_and_acceptance_tdd_for_java_developers">
+<title>Test Driven: Practical TDD and Acceptance TDD for Java Developers</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Lasse Koskela</emphasis>
+<emphasis>ISBN: 9781932394856</emphasis>
+<emphasis>October 2007</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>470 pages</emphasis></simpara>
+<simpara>In test driven development, you first write an executable test of what your application code must do. Only then do you write the code itself and, with the test spurring you on, you improve your design. In acceptance test driven development (ATDD), you use the same technique to implement product features, benefiting from iterative development, rapid feedback cycles, and better-defined requirements. TDD and its supporting tools and techniques lead to better software faster. This book brings under one cover practical TDD techniques distilled from several years of community experience. With examples in Java and the Java EE environment, it explores both the techniques and the mindset of TDD and ATDD. It uses carefully chosen examples to illustrate TDD tools and design patterns, not in the abstract but concretely in the context of the technologies you face at work. It is accessible to TDD beginners, and it offers effective and less well known techniques to older TDD hands.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781932394856?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_design_patterns_in_java_second_edition">
+<title>Design Patterns in Java, Second Edition</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Steven John Metsker &amp; William C. Wake</emphasis>
+<emphasis>ISBN: 9780321630483</emphasis>
+<emphasis>April 2006</emphasis>
+<emphasis>$64.99 US</emphasis>
+<emphasis>480 pages</emphasis></simpara>
+<simpara>This book gives you the hands-on practice and deep insight you need to fully leverage the significant power of design patterns in any Java software project. This learn-by-doing workbook applies the latest Java features and best practices to all of the original 23 patterns identified in that groundbreaking text. Drawing on their extensive experience as Java instructors and programmers, Steve Metsker and Bill Wake illuminate each pattern with real Java programs, clear UML diagrams, and compelling exercises. You&#8217;ll move quickly from theory to application—learning how to improve new code and refactor existing code for simplicity, manageability, and performance. If you&#8217;re a Java programmer wanting to save time while writing better code, this book&#8217;s techniques, tips, and clear explanations and examples will help you harness the power of patterns to improve every program you write, design, or maintain.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321630483?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_internet_multimedia_communications_using_sip_a_modern_approach_including_java_practice">
+<title>Internet Multimedia Communications Using SIP: A Modern Approach Including Java Practice</title>
+<simpara><emphasis>Morgan Kaufmann</emphasis>
+<emphasis>By Rogelio Martinez Perea</emphasis>
+<emphasis>ISBN: 9780123743008</emphasis>
+<emphasis>January 2008</emphasis>
+<emphasis>$83.95 US</emphasis>
+<emphasis>600 pages</emphasis></simpara>
+<simpara>Session Initiation Protocol (SIP) was conceived in 1996 as a signaling protocol for inviting users to multimedia conferences. Internet telephony and, in general, Internet multimedia, is the new revolution today and SIP is the key protocol which allows this revolution to grow. This book explains, in tutorial fashion, the underlying technologies that enable real-time IP multimedia communication services in the Internet (voice, video, presence, instant messaging, online picture sharing, white-boarding, etc). Focus is on session initiation protocol (SIP) but also covers session description protocol (SDP), Real-time transport protocol (RTP), and message session relay protocol (MSRP). The book includes discussion of leading edge theory (which is key to really understanding the technology) accompanied by Java examples that illustrate the theoretical concepts. Throughout the book, in addition to the code snippets, the reader is guided to build a simple but functional IP soft-phone therefore demonstrating the theory with practical examples.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780123743008?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_real_time_java_programming_with_java_rts">
+<title>Real-Time Java Programming with Java RTS</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Eric J. Bruno &amp; Greg Bollella</emphasis>
+<emphasis>ISBN: 9780137153626</emphasis>
+<emphasis>June 2009</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>432 pages</emphasis></simpara>
+<simpara>Sun Microsystems’ Java Real-Time System (Java RTS) is proving itself in numerous, wide-ranging environments, including finance, control systems, manufacturing, and defense. Java RTS and the RTSJ standard (JSR-001) eliminate the need for complicated, specialized, real-time languages and operating environments, saving money by leveraging Java’s exceptional productivity and familiarity. In this book, two of Sun’s top real-time programming experts present the deep knowledge and realistic code examples that developers need to succeed with Java RTS and its APIs. As they do so, the authors also illuminate the foundations of real-time programming in any RTSJ-compatible environment.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780137153626?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_performance_tuning_2nd_edition">
+<title>Java Performance Tuning, 2nd Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Jack Shirazi</emphasis>
+<emphasis>ISBN: 9780596003777</emphasis>
+<emphasis>January 2003</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>592 pages</emphasis></simpara>
+<simpara>Performance has been an important issue for Java developers ever since the first version hit the streets. Over the years, Java performance has improved dramatically, but tuning is essential to get the best results, especially for J2EE applications. You can never have code that runs too fast. This 2nd edition book provides a comprehensive and indispensable guide to eliminating all types of performance problems. Using many real-life examples to work through the tuning process in detail, JPT shows how tricks such as minimizing object creation and replacing strings with arrays can really pay off in improving your code&#8217;s performance. This book teaches you to work efficiently and effectively, resulting in code that is robust, maintainable, and fast.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/0596003773?cid=1107-biblio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_filthy_rich_clients_developing_animated_and_graphical_effects_for_desktop_java_applications">
+<title>Filthy Rich Clients: Developing Animated and Graphical Effects for Desktop Java Applications</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Chet Haase &amp; Romain Guy</emphasis>
+<emphasis>ISBN: 9780132413930</emphasis>
+<emphasis>August 2007</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>608 pages</emphasis></simpara>
+<simpara>This book shows you how to build better, more effective, cooler desktop applications that intensify the user experience. The keys to Filthy Rich Clients are graphical and animated effects. These kinds of effects provide ways of enhancing the user experience of the application through more attractive GUIs, dynamic effects that give your application a pulse, and animated transitions that keep your user connected to the logical flow of the application. The book also discusses how to do so effectively, making sure to enrich applications in sensible ways. Informal, fun, and, most of all, useful, this book is great for any developer working with Java to build desktop applications.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780132413930?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_professional_java_jdk_6th_edition">
+<title>Professional Java JDK, 6th Edition</title>
+<simpara><emphasis>Wrox</emphasis>
+<emphasis>By W. Clay Richardson, Donald Avondolio, Scot Schrager, Mark W. Mitchell &amp; Jeff Scanlon</emphasis>
+<emphasis>ISBN: 9780471777106</emphasis>
+<emphasis>January 2007</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>766 pages</emphasis></simpara>
+<simpara>Working as an effective professional Java developer requires you to know Java APIs, tools, and techniques to solve a wide variety of Java problems. This resource shows you how to use the core features of the latest JDK as well as powerful open source tools such as Ant, JUnit, and Hibernate. It will arm you with a well-rounded understanding of the professional Java development landscape. The expert author team begins by uncovering the sophisticated Java language features, the methodology for developing solutions, and steps for exploiting patterns. They then provide you with a collection of real-world examples that will become an essential part of your developer&#8217;s toolkit. With this approach, you&#8217;ll gain the skills to build advanced solutions by utilizing the more complex and nuanced parts of Java JDK 6.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780471777106?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_agile_java_crafting_code_with_test_driven_development">
+<title>Agile Java: Crafting Code with Test-Driven Development</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Jeff Langr</emphasis>
+<emphasis>ISBN: 9780131482395</emphasis>
+<emphasis>February 2005</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>792 pages</emphasis></simpara>
+<simpara>Master Java 5.0, object-oriented design, and Test-Driven Development (TDD) by learning them together. This book weaves all three into a single coherent approach to building professional, robust software systems. Jeff Langr shows exactly how Java and TDD integrate throughout the entire development lifecycle, helping you leverage today&#8217;s fastest, most efficient development techniques from the very outset. Langr writes for every programmer, even those with little or no experience with Java, object-oriented development, or agile methods. He shows how to translate oral requirements into practical tests, and then how to use those tests to create reliable, high-performance Java code that solves real problems. Agile Java doesn&#8217;t just teach the core features of the Java language: it presents coded test examples for each of them. This TDD-centered approach doesn&#8217;t just lead to better code: it provides powerful feedback that will help you learn Java far more rapidly. The use of TDD as a learning mechanism is a landmark departure from conventional teaching techniques.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780131482395?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_concurrent_programming_in_java_design_principles_and_patterns_second_edition">
+<title>Concurrent Programming in Java: Design Principles and Patterns, Second Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Doug Lea</emphasis>
+<emphasis>ISBN: 9780201310092</emphasis>
+<emphasis>October 1999</emphasis>
+<emphasis>$69.99 US</emphasis>
+<emphasis>432 pages</emphasis></simpara>
+<simpara>The Java platform provides a broad and powerful set of APIs, tools, and technologies. One of its most powerful capabilities is the built-in support for threads. This makes concurrent programming an attractive yet challenging option for programmers using the Java programming language. This book shows readers how to use the Java platform&#8217;s threading model more precisely by helping them to understand the patterns and tradeoffs associated with concurrent programming. You will learn how to initiate, control, and coordinate concurrent activities using the class java.lang.Thread, the keywords synchronized and volatile, and the methods wait, notify, and notifyAll. In addition, you will find detailed coverage of all aspects of concurrent programming, including such topics as confinement and synchronization, deadlocks and conflicts, state-dependent action control, asynchronous message passing and control flow, coordinated interaction, and structuring web-based and computational services.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780201310092?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_class_libraries">
+<title>Class Libraries</title>
+</chapter>
+<chapter id="_data_structures_and_the_java_collections_framework_third_edition">
+<title>Data Structures and the Java Collections Framework, Third Edition</title>
+<simpara><emphasis>John Wiley &amp; Sons</emphasis>
+<emphasis>By William J. Collins</emphasis>
+<emphasis>ISBN: 9780470482674</emphasis>
+<emphasis>January 2011</emphasis>
+<emphasis>$118.95 US</emphasis>
+<emphasis>760 pages</emphasis></simpara>
+<simpara>Instead of emphasizing the underlying mathematics to get programmers to build their own data structures, Collins enables them to manipulate existing structures in the Java Collections Library. This allows them to learn through coding rather than by doing proofs. 23 lab projects and hundreds of programming examples are integrated throughout the pages to build their intuition. The approach this book takes helps programmers quickly learn the concepts that underlie data structures.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780470482674?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+<sect1 id="_java_message_service_second_edition">
+<title>Java Message Service, Second Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Mark Richards, Richard Monson-Haefel &amp; David A Chappell</emphasis>
+<emphasis>ISBN: 9780596802264</emphasis>
+<emphasis>May 2009</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>336 pages</emphasis></simpara>
+<simpara>This book is a thorough introduction to the standard API that supports "messaging"&#8201;&#8212;&#8201;the software-to-software exchange of crucial data among network computers. You&#8217;ll learn how JMS can help you solve many architectural challenges, such as integrating dissimilar systems and applications, increasing scalability, eliminating system bottlenecks, supporting concurrent processing, and promoting flexibility and agility. Updated for JMS 1.1, this second edition also explains how this vendor-agnostic specification will help you write messaging-based applications using IBM&#8217;s MQ, Progress Software&#8217;s SonicMQ, ActiveMQ, and many other proprietary messaging services. Messaging is a powerful paradigm that makes it easier to uncouple different parts of an enterprise application. This book will quickly teach you how to use the key technology that lies behind it.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596802264?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_generics_and_collections">
+<title>Java Generics and Collections</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Maurice Naftalin &amp; Philip Wadler</emphasis>
+<emphasis>ISBN: 9780596527754</emphasis>
+<emphasis>October 2006</emphasis>
+<emphasis>$34.99 US</emphasis>
+<emphasis>288 pages</emphasis></simpara>
+<simpara>This comprehensive guide shows you how to master the most important changes to Java since it was first released. Generics and the greatly expanded collection libraries have tremendously increased the power of Java 5 and Java 6. But they have also confused many developers who haven&#8217;t known how to take advantage of these new features. This book covers everything from the most basic uses of generics to the strangest corner cases. It teaches you everything you need to know about the collections libraries, so you&#8217;ll always know which collection is appropriate for any given task, and how to use it.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596527754?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_threads_third_edition">
+<title>Java Threads, Third Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Scott Oaks &amp; Henry Wong</emphasis>
+<emphasis>ISBN: 9780596007829</emphasis>
+<emphasis>September 2004</emphasis>
+<emphasis>$39.95 US</emphasis>
+<emphasis>360 pages</emphasis></simpara>
+<simpara>Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition shows you how to take full advantage of Java&#8217;s threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. Java&#8217;s threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier. You&#8217;ll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596007829?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_swing_second_edition">
+<title>Java Swing, Second Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Marc Loy, Robert Eckstein, Dave Wood, James Elliott &amp; Brian Cole</emphasis>
+<emphasis>ISBN: 9780596004088</emphasis>
+<emphasis>November 2002</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>1280 pages</emphasis></simpara>
+<simpara>Swing is a fully-featured user interface development kit for Java applications. Building on the foundations of the Abstract Window Toolkit (AWT), Swing enables cross-platform applications to use any of several pluggable look-and-feels. Swing developers can take advantage of its rich, flexible features and modular components, building elegant user interfaces with very little code. This second edition thoroughly covers all the features available in Java 2 SDK 1.3 and 1.4. More than simply a reference, this new edition takes a practical approach. It is a book by developers for developers, with hundreds of useful examples, from beginning level to advanced, covering every component available in Swing. All these features mean that there&#8217;s a lot to learn. Even setting aside its platform flexibility, Swing compares favorably with any widely available user interface toolkit&#8212;it has great depth. Swing makes it easy to do simple things but is powerful enough to create complex, intricate interfaces.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596004088?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_next_generation_java_testing_testng_and_advanced_concepts">
+<title>Next Generation Java Testing: TestNG and Advanced Concepts</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Cédric Beust &amp; Hani Suleiman</emphasis>
+<emphasis>ISBN: 9780321503107</emphasis>
+<emphasis>October 2007</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>512 pages</emphasis></simpara>
+<simpara>Enterprise Java developers must achieve broader, deeper test coverage, going beyond unit testing to implement functional and integration testing with systematic acceptance. This book introduces breakthrough Java testing techniques and TestNG, a powerful open source Java testing platform. Cédric Beust, TestNG&#8217;s creator, and leading Java developer Hani Suleiman, present powerful, flexible testing patterns that will work with virtually any testing tool, framework, or language. They show how to leverage key Java platform improvements designed to facilitate effective testing, such as dependency injection and mock objects. They also thoroughly introduce TestNG, demonstrating how it overcomes the limitations of older frameworks and enables new techniques, making it far easier to test today&#8217;s complex software systems. This book will help Java developers build more robust code for today&#8217;s mission-critical environments.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321503107?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_nio">
+<title>Java NIO</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Ron Hitchens</emphasis>
+<emphasis>ISBN: 9780596002886</emphasis>
+<emphasis>August 2002</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>304 pages</emphasis></simpara>
+<simpara>Many serious Java programmers, especially enterprise Java programmers, consider the I/O API&#8212;called NIO for New Input/Output&#8212;the most important feature in the 1.4 version of the Java 2 Standard Edition. The NIO package includes many things that have been missing from previous editions of Java that are critical to writing high-performance, large-scale applications: improvements in the areas of buffer management, scalable network and file I/O, character-set support, and regular expression matching. Most of all, it boosts performance and speed dramatically. This book explores the new I/O capabilities of version 1.4 in detail and shows you how to put these features to work to greatly improve the efficiency of the Java code you write. This compact volume examines the typical challenges that Java programmers face with I/O and shows you how to take advantage of the capabilities of the new I/O features. You’ll learn how to put these tools to work using examples of common, real-world I/O problems and see how the new features have a direct impact on responsiveness, scalability, and reliability.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/0596002882?cid=1107-biblio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_game_programming">
+<title>Game Programming</title>
+<sect1 id="_beginning_java_se_6_game_programming_third_edition">
+<title>Beginning Java SE 6 Game Programming, Third Edition</title>
+<simpara><emphasis>Course Technology PTR</emphasis>
+<emphasis>By Jonathan S. Harbour</emphasis>
+<emphasis>ISBN: 9781435458086</emphasis>
+<emphasis>January 2011</emphasis>
+<emphasis>$34.99 US</emphasis>
+<emphasis>389 pages</emphasis></simpara>
+<simpara>This book is a hands-on guide that is perfect for beginner-level game programmers who want to quickly and easily learn how to create games using the latest version of the Java SDK, Java 6. Written in simple language, the book teaches each new skill using engaging tutorials, followed by end-of-chapter questions and exercises to help reinforce what you&#8217;ve just learned. You&#8217;ll begin with the basics of writing a simple game using vector graphics, move on to utilizing Java&#8217;s advanced library to add animation and sound effects, and end by creating a professional, sprite-based game full of interesting artwork and details that you can share with others on the web.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781435458086?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_killer_game_programming_in_java">
+<title>Killer Game Programming in Java</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Andrew Davison</emphasis>
+<emphasis>ISBN: 9780596007300</emphasis>
+<emphasis>May 2005</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>1080 pages</emphasis></simpara>
+<simpara>Java developers new to graphics and game programming, as well as game developers new to Java 3D, will find this book invaluable. It is a practical introduction to the latest Java graphics and game programming technologies and techniques. It is a comprehensive guide to everything you need to know to program cool, testosterone-drenched Java games. It will give you reusable techniques to create everything from fast, full-screen action games to multiplayer 3D games. In addition to the most thorough coverage of Java 3D available, this book also clearly details the older, better-known 2D APIs, 3D sprites, animated 3D sprites, first-person shooter programming, sound, fractals, and networked games. This book is a must-have for anyone who wants to create adrenaline-fueled games in Java.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596007300?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_introduction_to_programming_with_greenfoot_object_oriented_programming_in_java_with_games_and_simulations_first_edition">
+<title>Introduction to Programming with Greenfoot: Object–Oriented Programming in Java™ with Games and Simulations, First Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Michael Kölling</emphasis>
+<emphasis>ISBN: 9780136037538</emphasis>
+<emphasis>August 2009</emphasis>
+<emphasis>$83.00 US</emphasis>
+<emphasis>216 pages</emphasis></simpara>
+<simpara>This book is ideal for introductory courses in Java Programming or Introduction to Computer Science. Programming doesn’t have to be dry and boring. This book teaches Java programming in an interactive and engaging way that is technically relevant, pedagogically sound, and highly motivational for students. Using the Greenfoot environment, and an extensive collection of compelling example projects, students are given a unique, graphical framework in which to learn programming.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780136037538?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_developing_games_in_java">
+<title>Developing Games in Java</title>
+<simpara><emphasis>New Riders</emphasis>
+<emphasis>By David Brackeen, Bret Barker &amp; Laurence Vanhelsuwé</emphasis>
+<emphasis>ISBN: 9781592730056</emphasis>
+<emphasis>August 2003</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>1008 pages</emphasis></simpara>
+<simpara>If you already have Java programming experience and are looking to program games, this book is for you. David Brackeen, along with co-authors Bret Barker and Lawrence Vanhelsuwe, show you how to make fast, full-screen action games such as side scrollers and 3D shooters. Key features covered in this book include Java 2 game programming techniques, including latest 2D graphics and sound technologies, 3D graphics and scene management, path-finding and artificial intelligence, collision detection, game scripting using BeanShell, and multi-player game engine creation.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781592730056?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_beginning_java_game_programming_second_edition">
+<title>Beginning Java Game Programming, Second Edition</title>
+<simpara><emphasis>Course Technology PTR</emphasis>
+<emphasis>By Jonathan S. Harbour</emphasis>
+<emphasis>ISBN: 9781598634761</emphasis>
+<emphasis>December 2007</emphasis>
+<emphasis>$29.99 US</emphasis>
+<emphasis>366 pages</emphasis></simpara>
+<simpara>This book is a hands-on guide that is perfect for beginner-level game programmers who want to quickly and easily learn how to create games using Java. Written in simple language, the book teaches each new skill using engaging tutorials, followed by end-of-chapter questions and exercises to help reinforce what you&#8217;ve just learned. You&#8217;ll begin with the basics of writing a simple 2D game using vector graphics, move on to utilizing Java&#8217;s advanced 2D library to add animation and sound effects, and end by creating a professional, sprite-based game full of interesting artwork and details that you can share with others on your own website!</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781598634761?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_jvm_languages">
+<title>JVM Languages</title>
+<sect1 id="_programming_scala">
+<title>Programming Scala</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Dean Wampler &amp; Alex Payne</emphasis>
+<emphasis>ISBN: 9780596155957</emphasis>
+<emphasis>July 2009</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>448 pages</emphasis></simpara>
+<simpara>Learn how to be more productive with Scala, a new multi-paradigm language for the Java Virtual Machine (JVM) that integrates features of both object-oriented and functional programming. With this book, you&#8217;ll discover why Scala is ideal for highly scalable, component-based applications that support concurrency and distribution. This book clearly explains the advantages of Scala as a JVM language. You&#8217;ll learn how to leverage the wealth of Java class libraries to meet the practical needs of enterprise and Internet projects more easily. Packed with code examples, this book provides useful information on Scala&#8217;s command-line tools, third-party tools, libraries, and available language-aware plugins for editors and IDEs.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596155957?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_clojure_programming">
+<title>Clojure Programming</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Chas Emerick, Brian Carper &amp; Christophe Grand</emphasis>
+<emphasis>ISBN: 9781449394707</emphasis>
+<emphasis>Septmeber 2011</emphasis>
+<emphasis>$29.99 US</emphasis>
+<emphasis>400 pages</emphasis></simpara>
+<simpara>The Clojure language is a practical alternative for everyday programming that offers expressivity rivaling other dynamic languages like Ruby and Python, but allows one to seamlessly take advantage of Java libraries, services, and all of the resources of the JVM ecosystem. This book helps you learn the fundamentals of Clojure with examples relating it to the languages you know already—whether you&#8217;re focused on data modeling, concurrency and parallelism, web programming, statistics and data analysis, and more.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/clojure/9781449310387?cid=1107-biblio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_jruby_cookbook">
+<title>JRuby Cookbook</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Justin Edelson &amp; Henry Liu</emphasis>
+<emphasis>ISBN: 9780596519803</emphasis>
+<emphasis>November 2008</emphasis>
+<emphasis>$34.99 US</emphasis>
+<emphasis>224 pages</emphasis></simpara>
+<simpara>If you&#8217;re interested in JRuby, you probably don&#8217;t need a tutorial on Ruby, Rails, or Java&#8201;&#8212;&#8201;you just need to know how to get things done. This Cookbook offers practical solutions for using the Java implementation of the Ruby language, with targeted recipes for deploying Rails web applications on Java servers, integrating JRuby code with Java technologies, developing JRuby desktop applications with Java toolkits, and more. The JRuby interpreter combines Ruby&#8217;s simplicity and ease of use with Java&#8217;s extensive libraries and technologies, a potent blend that opens new possibilities for Ruby, Rails, and Java. This Cookbook helps you take full advantage of JRuby&#8217;s potential.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596519803?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_grails_in_action">
+<title>Grails In Action</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Glen Smith &amp; Peter Ledbrook</emphasis>
+<emphasis>ISBN: 9781933988931</emphasis>
+<emphasis>June 2009</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>520 pages</emphasis></simpara>
+<simpara>For web developers used to wrestling with Java and XML, Grails is a breath of fresh air. Developers are instantly productive, picking up all the benefits of the Ruby-based Rails framework without giving up any of the power of Java. This book is a comprehensive look at Grails for Java developers. It covers the nuts and bolts of the core Grails components and is jam-packed with tutorials, techniques, and insights from the trenches. The book also covers using Grails with existing Java technology, like Spring, Hibernate, and EJBs.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781933988931?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_language_reference">
+<title>Language Reference</title>
+<sect1 id="_java_in_a_nutshell_5th_edition">
+<title>Java in a Nutshell, 5th Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By David Flanagan</emphasis>
+<emphasis>ISBN: 9780596007737</emphasis>
+<emphasis>March 2005</emphasis>
+<emphasis>$44.95 US</emphasis>
+<emphasis>1264 pages</emphasis></simpara>
+<simpara>With more than 700,000 copies sold to date, Java in a Nutshell from O&#8217;Reilly is clearly the favorite resource amongst the legion of developers and programmers using Java technology. And now, with the release of the 5.0 version of Java, O&#8217;Reilly has given the book that defined the "in a Nutshell" category another impressive tune-up. This book now places less emphasis on coming to Java from C and C++, and adds more discussion on tools and frameworks. It also offers new code examples to illustrate the working of APIs, and, of course, extensive coverage of Java 5.0. This handy reference gets right to the heart of the program with an accelerated introduction to the Java programming language and its key APIs&#8212;ideal for developers wishing to start writing code right away. And, as was the case in previous editions, Java in a Nutshell, 5th Edition is once again chock-full of poignant tips, techniques, examples, and practical advice. For as long as Java has existed, Java in a Nutshell has helped developers maximize the capabilities of the program&#8217;s newest versions. And this latest edition is no different.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/0596007736?cid=1107-biblio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_the_java_programming_language_fourth_edition">
+<title>The Java Programming Language, Fourth Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Ken Arnold, James Gosling &amp; David Holmes</emphasis>
+<emphasis>ISBN: 9780321349804</emphasis>
+<emphasis>August 2005</emphasis>
+<emphasis>$64.99 US</emphasis>
+<emphasis>928 pages</emphasis></simpara>
+<simpara>Direct from the creators of the Java programming language, this completely revised fourth edition is an indispensable resource for novice and advanced programmers alike. Developers around the world have used previous editions to quickly gain a deep understanding of the Java programming language, its design goals, and how to use it most effectively in real-world development. Now, Ken Arnold, James Gosling, and David Holmes have updated this classic to reflect the major enhancements in Java™ 2 Standard Edition 5.0 (J2SE™ 5.0). The authors systematically cover most classes in Java’s main packages, java.lang.*, java.util, and java.io, presenting in-depth explanations of why these classes work as they do, with informative examples. Several new chapters and major sections have been added, and every chapter has been updated to reflect today’s best practices for building robust, efficient, and maintainable Java software.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321349804?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis>
+=== Java Cookbook, Second Edition</simpara>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Ian F. Darwin</emphasis>
+<emphasis>ISBN: 9780596007010</emphasis>
+<emphasis>June 2004</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>864 pages</emphasis></simpara>
+<simpara>You have a choice: you can wade your way through lengthy Java tutorials and figure things out by trial and error, or you can pick up this 2nd Edition book and get to the heart of what you need to know when you need to know it. In this book Java developers like you will learn by example, try out new features, and use sample code to understand how new additions to the language and platform work&#8212;and how to put them to work for you. Whether you&#8217;re new to Java programming and need something to bridge the gap between theory-laden reference manuals and real-world programs or you&#8217;re a seasoned Java programmer looking for a new perspective or a different problem-solving context, this book will help you make the most of your Java knowledge. Packed with hundreds of tried-and-true Java recipes covering all of the major APIs from the 1.4 version of Java, this book also offers significant first-look recipes for the most important features of the new 1.5 version, which is in beta release. You get practical solutions to everyday problems, and each is followed by a detailed, ultimately useful explanation of how and why the technology works.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596007010?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_pocket_guide">
+<title>Java Pocket Guide</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Robert Liguori &amp; Patricia Liguori</emphasis>
+<emphasis>ISBN: 9780596514198</emphasis>
+<emphasis>March 2008</emphasis>
+<emphasis>$14.99 US</emphasis>
+<emphasis>192 pages</emphasis></simpara>
+<simpara>How many times have you reached an impasse while writing code because you couldn&#8217;t remember how something in Java worked? This new pocket guide is designed to keep you moving. Concise, convenient and easy to use, this book gives you Java stripped down to its bare essentials&#8201;&#8212;&#8201;in fact, it&#8217;s the only book on Java that you can actually fit in your pocket. Written by Robert and Patricia Liguori, senior software and lead information engineers for Java-based air traffic management and simulation environments, this book contains everything you really need to know about Java, particularly everything you need to remember.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596514198?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_persistence_and_databases">
+<title>Persistence and Databases</title>
+<sect1 id="_java_persistence_with_hibernate">
+<title>Java Persistence with Hibernate</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Christian Bauer &amp; Gavin King</emphasis>
+<emphasis>ISBN: 9781932394887</emphasis>
+<emphasis>November 2006</emphasis>
+<emphasis>$64.99 US</emphasis>
+<emphasis>880 pages</emphasis></simpara>
+<simpara>Persistence&#8201;&#8212;&#8201;the ability of data to outlive an instance of a program&#8201;&#8212;&#8201;is central to modern applications. Hibernate, the most popular Java persistence tool, provides automatic and transparent object/relational mapping so it&#8217;s a snap to work with SQL databases in Java applications. Hibernate conforms to the new EJB 3.0 and Java Persistence 1.0 standards.This book explores Hibernate by developing an application that ties together hundreds of individual examples. You&#8217;ll immediately dig into the rich programming model of Hibernate 3.2 and Java Persistence, working through queries, fetching strategies, caching, transactions, conversations, and more. You&#8217;ll also appreciate the well-illustrated discussion of best practices in database design, object/relational mapping, and optimization techniques.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781932394887?cid=1107-bibilio-java-link">Read in on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_pro_jpa_2_mastering_the_java_persistence_api">
+<title>Pro JPA 2: Mastering the Java Persistence API</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Mike Keith &amp; Merrick Schincariol</emphasis>
+<emphasis>ISBN: 9781430219569</emphasis>
+<emphasis>December 2009</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>536 pages</emphasis></simpara>
+<simpara>Pro JPA 2 introduces, explains, and demonstrates how to use the new Java Persistence API (JPA). JPA provides Java developers with both the knowledge and insight needed to write Java applications that access relational databases through JPA. Authors Mike Keith and Merrick Schincariol take a hands-on approach to teaching by giving examples to illustrate each new concept of the API and showing how it is used in practice.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430219569?cid=1107-bibilio-java-link">Read in on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_hibernate_recipes_a_problem_solution_approach">
+<title>Hibernate Recipes: A Problem-Solution Approach</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Srinivas Guruzu &amp; Gary Mak</emphasis>
+<emphasis>ISBN: 9781430227960</emphasis>
+<emphasis>July 2010</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>312 pages</emphasis></simpara>
+<simpara>Hibernate continues to be the most popular out-of-the-box framework solution for Java Persistence and data/database accessibility techniques and patterns. It is used for e-commerce–based web applications as well as heavy-duty transactional systems for the enterprise. Gary Mak, the author of the best-selling Spring Recipes, now brings you this book, which contains a collection of code recipes and templates for learning and building Hibernate solutions for you and your clients. This book is your pragmatic day-to-day reference and guide for doing all things involving Hibernate. There are many books focused on learning Hibernate, but this book takes you further and shows how you can apply it practically in your daily work.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430227960?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_seam_framework_experience_the_evolution_of_java_ee_second_edition">
+<title>Seam Framework: Experience the Evolution of Java EE, Second Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Michael Juntao Yuan, Jacob Orshalick &amp; Thomas Heute</emphasis>
+<emphasis>ISBN: 9780137151660</emphasis>
+<emphasis>February 2009</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>504 pages</emphasis></simpara>
+<simpara>The authors of the leading guide to Seam programming have systematically updated their text to reflect the major improvements introduced with Seam 2.x. This author team–all key Seam project contributors–teach Seam 2.x through detailed example applications that reveal how Seam simplifies many tasks that were previously difficult or impractical. Their robust descriptions are complemented by in-depth feature discussions that demonstrate how to use Seam’s power to the fullest. Whether you’re new to Seam programming or a seasoned Seam developer who wants to achieve deeper mastery of Seam 2.x, this book will be an indispensable resource.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780137151660?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_cassandra_the_definitive_guide">
+<title>Cassandra: The Definitive Guide</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Eben Hewitt</emphasis>
+<emphasis>ISBN: 9781449390419</emphasis>
+<emphasis>November 2010</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>336 pages</emphasis></simpara>
+<simpara>The rising popularity of Apache Cassandra rests on its ability to handle very large data sets that include hundreds of terabytes&#8201;&#8212;&#8201;and that&#8217;s why this distributed database has been chosen by organizations such as Facebook, Twitter, Digg, and Rackspace. With this hands-on guide, you&#8217;ll get all the details and practical examples you need to understand Cassandra&#8217;s non-relational database design and put it to work in a production environment. Author Eben Hewit pays special attention to data modeling, and demonstrates Cassandra&#8217;s many advantages, including its high availability, eventual consistency model, and ability to scale easily. If you&#8217;re a developer with a startup, you&#8217;ll learn how to future-proof your application by implementing Cassandra before your storage needs become critical. Join the growing list data-intensive organizations that have come to rely on Cassandra&#8217;s design.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781449390419?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_hbase_the_definitive_guide">
+<title>Hbase: The Definitive Guide</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Lars George</emphasis>
+<emphasis>ISBN: 9781449396107</emphasis>
+<emphasis>August 2011</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>400 pages</emphasis></simpara>
+<simpara>If your organization is looking for a storage solution to accommodate a virtually endless amount of data, this book will show you how Apache HBase can fulfill your needs. As the open source implementation of Google&#8217;s BigTable architecture, HBase scales to billions of rows and millions of columns, while ensuring that write and read performance remain constant. This book provides the details you require, whether you simply want to evaluate this high-performance, non-relational database, or put it into practice right away. HBase&#8217;s adoption rate is beginning to climb, and several IT executives are asking pointed questions about this high-capacity database. This is the only book available to give you meaningful answers.</simpara>
+</sect1>
+<sect1 id="_harnessing_hibernate">
+<title>Harnessing Hibernate</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By James Elliot, Timothy M. O’Brien &amp; Ryan Fowler</emphasis>
+<emphasis>ISBN: 9780596517724</emphasis>
+<emphasis>April 2008</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>384 pages</emphasis></simpara>
+<simpara>This book is an ideal introduction to the popular framework that lets Java developers work with information from a relational database easily and efficiently. Databases are a very different world than Java objects, and they often involve people with different skills and specializations. With Hibernate, bridging these two worlds is significantly easier, and with this book, you can get up to speed with Hibernate quickly. Rather than present you with another reference, this book lets you explore the system, from download and configuration through a series of projects that demonstrate how to accomplish a variety of practical goals. The new edition of this concise guide walks you through Hibernate&#8217;s primary features, which include mapping from Java classes to database tables, and from Java data types to SQL data types. You will also learn about Hibernate&#8217;s data query and retrieval facilities, and much more. By reading and following along with the examples, you can get your own Hibernate environment set up quickly and start using it for real-world tasks right away.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596517724?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_nhibernate_in_action">
+<title>NHibernate in Action</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Pierre Henri Kuaté, Christian Bauer, Gavin King &amp; Tobin Harris</emphasis>
+<emphasis>ISBN: 9781932394924</emphasis>
+<emphasis>February 2009</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>400 pages</emphasis></simpara>
+<simpara>In the classic style of Manning&#8217;s "In Action" series, this book shows .NET developers how to use the NHibernate Object/Relational Mapping tool. The book shows how to implement complex business objects, and later teaches advanced techniques like caching and session management. Readers will discover how to implement persistence in a .NET application, and how to configure NHibernate to specify the mapping information between business objects and database tables. Readers will also be introduced to the internal architecture of NHibernate by progressively building a complete sample application using Agile methodologies.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781932394924?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_nhibernate_with_asp_net_problem_design_solution">
+<title>NHibernate with ASP.NET Problem-Design-Solution</title>
+<simpara><emphasis>Wrox Blox</emphasis>
+<emphasis>By Scott Millett</emphasis>
+<emphasis>ISBN:  9780470488201</emphasis>
+<emphasis>March 2009</emphasis>
+<emphasis>$9.99 US</emphasis>
+<emphasis>123 pages</emphasis></simpara>
+<simpara>This Wrox Blox demonstrates how to start using NHibernate in line business applications using ASP.NET and VB.NET. Using NHibernate will speed up your application development by removing the need to build your own Data Access Layer (DAL). In addition, you can focus solely on the business problem instead of the infrastructure concerns. Using a simple demo application as an example, this Wrox Blox shows how easy it is to get started with NHibernate and build your DAL in minutes instead of hours. Readers will also see how the POCO pattern enables you to keep your DAL as unobtrusive as possible as well as being interchangeable for future DAL implementations. You will also see how NHibernate has many enterprise patterns built into it, like the Unit of Work pattern and the Identity Map.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780470488201?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_beginning_hibernate_from_novice_to_professional">
+<title>Beginning Hibernate: From Novice to Professional</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Dave Minter &amp; Jeff Linwood</emphasis>
+<emphasis>ISBN: 9781590596937</emphasis>
+<emphasis>August 2006</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>360 pages</emphasis></simpara>
+<simpara>This book packs in brand new information about the latest release of the Hibernate 3.2.x persistence layer and provides a clear introduction to the current standard for object-relational persistence in Java. Experienced author Dave Minter and contributor Jeff Linwood provide more in-depth examples than any other books for Hibernate beginners. Since the book keeps its focus on Hibernate without wasting time on nonessential third-party tools, you’ll be able to immediately start building transaction-based engines and applications.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781590596937?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_hibernate_search_in_action">
+<title>Hibernate Search in Action</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Emmanuel Bernard &amp; John Griffin B.A</emphasis>
+<emphasis>ISBN: 9781933988641</emphasis>
+<emphasis>December 2008</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>450 pages</emphasis></simpara>
+<simpara>Hibernate Search builds on the Lucene feature set and offers an easy-to-implement interface that integrates seamlessly with Hibernate-the leading data persistence solution for Java applications. This book introduces both the principles of enterprise search and the implementation details a Java developer will need to use Hibernate Search effectively. This book blends the insights of the Hibernate Search lead developer with the practical techniques required to index and manipulate data, assemble and execute search queries, and create smart filters for better search results. Along the way, the reader masters performance-boosting concepts like using Hibernate Search in a clustered environment and integrating with the features already in your applications.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781933988641?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_database_programming_with_jdbc_amp_java_second_edition">
+<title>Database Programming with JDBC &amp; Java, Second Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By George Reese</emphasis>
+<emphasis>ISBN: 9781565926165</emphasis>
+<emphasis>August 2000</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>348 pages</emphasis></simpara>
+<simpara>Java and databases make a powerful combination. Getting the two sides to work together, however, takes some effort&#8212;largely because Java deals in objects while most databases do not. This book describes the standard Java interfaces that make portable object-oriented access to relational databases possible and offers a robust model for writing applications that are easy to maintain. It introduces the JDBC and RMI packages and uses them to develop three-tier applications (applications divided into a user interface, an object-oriented logic component, and an information store). The book&#8217;s key contribution is a set of patterns that let developers isolate critical tasks like object creation, information storage and retrieval, and the committing or aborting of transactions.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781565926165?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_service_oriented_architecture">
+<title>Service Oriented Architecture</title>
+<sect1 id="_java_web_services_up_and_running">
+<title>Java Web Services: Up and Running</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Martin Kalin</emphasis>
+<emphasis>ISBN: 9780596521127</emphasis>
+<emphasis>February 2009</emphasis>
+<emphasis>$34.99 US</emphasis>
+<emphasis>320 pages</emphasis></simpara>
+<simpara>This example-driven book offers a thorough introduction to Java&#8217;s APIs for XML Web Services (JAX-WS) and RESTful Web Services (JAX-RS). This book takes a clear, pragmatic approach to these technologies by providing a mix of architectural overview, complete working code examples, and short yet precise instructions for compiling, deploying, and executing an application. You&#8217;ll learn how to write web services from scratch and integrate existing services into your Java applications. Ideal for students as well as experienced programmers, this book is the concise guide you need to start working with these technologies right away.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596521127?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_soa_cookbook">
+<title>Java SOA Cookbook</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Eben Hewitt</emphasis>
+<emphasis>ISBN: 9780596520724</emphasis>
+<emphasis>March 2009</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>752 pages</emphasis></simpara>
+<simpara>This book offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It&#8217;s full of Java and XML code you can insert directly into your applications and recipes you can apply right away. The book focuses primarily on the use of free and open source Java Web Services technologies&#8201;&#8212;&#8201;including Java SE 6 and Java EE 5 tools&#8201;&#8212;&#8201;but you&#8217;ll find tips for using commercially available tools as well.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596520724?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_building_web_services_with_java_making_sense_of_xml_soap_wsdl_and_uddi_second_edition">
+<title>Building Web Services with Java: Making Sense of XML, SOAP, WSDL, and UDDI, Second Edition</title>
+<simpara><emphasis>Sams</emphasis>
+<emphasis>By Steve Graham, Doug Davis, Simeon Simeonov, Glen Daniels, Peter Brittenham, Yuichi Nakamura, Paul Fremantle, Dieter König &amp; Claudia Zentner</emphasis>
+<emphasis>ISBN: 9780672326417</emphasis>
+<emphasis>June 2004</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>816 pages</emphasis></simpara>
+<simpara>Sams has assembled a team of experts in web services to provide you with this detailed reference guide on XML, SOAP, USDL and UDDI. This second edition includes the newest standards for managing security, transactions, reliability and interoperability in web service applications. Go beyond the explanations of standards and find out how and why these tools were designed as they are and focus on practical examples of each concept. Download your source code from the publisher&#8217;s website and work with a running example of a full enterprise solution.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780672326417?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_implementing_soa_using_java_ee">
+<title>Implementing SOA Using Java EE</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By B. V. Kumar, Prakash Narayan &amp; Tony Ng</emphasis>
+<emphasis>ISBN: 9780321492159</emphasis>
+<emphasis>December 2009</emphasis>
+<emphasis>384 pages</emphasis></simpara>
+<simpara>This book brings together all the practical insight you need to successfully architect enterprise solutions and implement them using SOA and Java EE technologies. Writing for senior IT developers, strategists, and enterprise architects, the authors cover everything from concepts to implementation, requirements to tools.  The authors first review the Java EE platform’s essential elements in the context of SOA and web services deployment, and demonstrate how Java EE has evolved into the world’s best open source solution for enterprise SOA. After discussing standards such as SOAP, WSDL, and UDDI, they walk through implementing each key aspect of SOA with Java EE. Step by step, you’ll learn how to integrate service-oriented web and business components of Java EE technologies with the help of process-oriented standards such as BPEL/CDL into a coherent, tiered enterprise architecture that can deliver a full spectrum of business services.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321492159?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_soa_using_java_web_services">
+<title>SOA Using Java Web Services</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Mark D. Hansen</emphasis>
+<emphasis>ISBN: 9780130449689</emphasis>
+<emphasis>May 2007</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>608 pages</emphasis></simpara>
+<simpara>This book  is a hands-on guide to implementing Web services and Service Oriented Architecture (SOA) with today’s Java EE 5 and Java SE 6 platforms. Author Mark Hansen presents in explicit detail the information that enterprise developers and architects need to succeed, from best-practice design techniques to state-of-the-art code samples. Hansen covers creating, deploying, and invoking Web services that can be composed into loosely coupled SOA applications. He begins by reviewing the “big picture,” including the challenges of Java-based SOA development and the limitations of traditional approaches. Next, he systematically introduces the latest Java Web Services (JWS) APIs and walks through creating Web services that integrate into a comprehensive SOA solution. Finally, he shows how application frameworks based on JWS can streamline the entire SOA development process and introduces one such framework: SOA-J.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780130449689?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_spring">
+<title>Spring</title>
+<sect1 id="_spring_in_action_second_edition">
+<title>Spring in Action, Second Edition</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Craig Walls &amp; Ryan Breidenbac</emphasis>
+<emphasis>ISBN: 9781933988139</emphasis>
+<emphasis>August 2007</emphasis>
+<emphasis>$54,99 US</emphasis>
+<emphasis>650 pages</emphasis></simpara>
+<simpara>Written by Craig Walls, one of Manning&#8217;s best writers, this book covers the exciting new features of Spring 2.0, which was released in October 2006. Spring is a lightweight container framework that represents an exciting way to build enterprise components with simple Java objects. By employing dependency injection and AOP, Spring encourages loosely coupled code and enables plain-old Java objects with capabilities that were previously reserved for EJBs. This book is a hands-on, example-driven exploration of the Spring Framework. Combining short code snippets and an ongoing example developed throughout the book, it shows readers how to build simple and efficient J2EE applications, how to solve persistence problems, handle asynchronous messaging, create and consume remote services, build web applications, and integrate with most popular web frameworks. Readers will learn how to use Spring to write simpler, easier to maintain code so they can focus on what really matters-- critical business needs.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781933988139?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_spring_recipes">
+<title>Spring Recipes</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Gary Mak, Josh Long &amp; Daniel Rubio</emphasis>
+<emphasis>ISBN: 9781430224990</emphasis>
+<emphasis>August 2010</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>1200 pages</emphasis></simpara>
+<simpara>With over 3 Million users/developers, Spring Framework is the leading "out of the box" Java framework. Spring addresses and offers simple solutions for most aspects of your Java/Java EE application development, and guides you to use industry best practices to design and implement your applications. This book continues upon the bestselling success of the previous edition but focuses on the latest Spring 3 features for building enterprise Java applications. This book provides elementary to advanced code recipes for Spring 3.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430224990?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_pro_spring_integration">
+<title>Pro Spring Integration</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Dr. Mark Lui, Mario Gray, Andy Chan &amp; Josh Long</emphasis>
+<emphasis>ISBN: 9781430233459</emphasis>
+<emphasis>March 2011</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>663 pages</emphasis></simpara>
+<simpara>This book is written by experts that guide you through the vast world of Enterprise Application Integration and the application of the Spring Integration framework towards solving integration problems. What makes this book unique is its coverage of contemporary technologies and real-world information, with a focus on common problems that users are likely to confront. This book zeros in on extending the Spring Integration framework to meet your custom integration demands.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430233459?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_spring_persistence_with_hibernate">
+<title>Spring Persistence with Hibernate</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Paul Tepper Fisher &amp; Brian D. Murphy _
+_ISBN: 9781430226321</emphasis>
+<emphasis>October 2010</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>262 pages</emphasis></simpara>
+<simpara>Today, the Spring Framework is the leading out-of-the-box solution for enterprise Java developers; in it, you can find a number of Java Persistence solutions. This book gets you rolling with fundamental Spring Framework 3 concepts and integrating persistence functionality into enterprise Java applications using Hibernate, the Java™ Persistence API (JPA) 2, and the Grails Object Relational Mapping tool, GORM.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430226321?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_spring_security_3">
+<title>Spring Security 3</title>
+<simpara><emphasis>Packt Publishing</emphasis>
+<emphasis>By Peter Mularien</emphasis>
+<emphasis>ISBN: 9781847199744</emphasis>
+<emphasis>May 2010</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>396 pages</emphasis></simpara>
+<simpara>Security is of critical importance to all web applications. Vulnerable applications are easy prey for hackers. This book is the perfect tool for Java developers looking to repel attacks against their web applications using the proven Spring Security library to achieve this. You will learn through real world business scenarios how to guard against the latest threats. You will also learn to combine Spring Security 3 with external security providers such as LDAP, OpenID, CAS, Kerberos, and Active Directory. This practical guide will show you how to implement Spring Security 3 and protect your applications from being breached using a combination of real world, straightforward examples.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781847199744?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_pro_spring_2_5">
+<title>Pro Spring 2.5</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Jan Machacek, Aleksa Vukotic, Anirvan Chakraborty &amp; Jessica Ditt</emphasis>
+<emphasis>ISBN: 9781590599211</emphasis>
+<emphasis>August 2008</emphasis>
+<emphasis>920 pages</emphasis>
+<emphasis>$49.99 US</emphasis></simpara>
+<simpara>The Spring Framework remains the leader in this move and provides a platform on which you can build your own applications and services. This book covers the new features of Spring 2.5, but moreover, it is focused on the best practices and core standards of contemporary Spring development. As members of the Spring development team at Cake Solutions, the author team brings extensive practical experience gained from working with Spring since version 1.0 and delivering successful systems on top of it.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781590599211?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_agile_java_development_with_spring_hibernate_and_eclipse">
+<title>Agile Java Development with Spring, Hibernate and Eclipse</title>
+<simpara><emphasis>Sams</emphasis>
+<emphasis>By Anil Hemrajani</emphasis>
+<emphasis>ISBN: 9780672328961</emphasis>
+<emphasis>May 2006</emphasis>
+<emphasis>360 pages</emphasis>
+<emphasis>$49.99 US</emphasis></simpara>
+<simpara>This is a book about robust technologies and effective methods that help bring simplicity back into the world of enterprise Java development. The three key technologies covered in this book, the Spring Framework, Hibernate and Eclipse, help reduce the complexity of enterprise Java development significantly. Furthermore, these technologies enable plain old Java objects (POJOs) to be deployed in light-weight containers versus heavy-handed remote objects that require heavy EJB containers. This book also extensively covers technologies such as Ant, JUnit, JSP tag libraries and touches upon other areas such as such logging, GUI based debugging, monitoring using JMX, job scheduling, emailing, and more. Also, Extreme Programming (XP), Agile Model Driven Development (AMDD) and refactoring are methods that can expedite the software development projects by reducing the amount of up front requirements and design; hence these methods are embedded throughout the book but with just enough details and examples to not sidetrack the focus of this book.  By using the technologies and methods covered in this book, you will be able to effectively develop enterprise-class Java applications, in an agile manner!</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780672328961?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_spring_roo_in_action">
+<title>Spring Roo In Action</title>
+<simpara><emphasis>Manning Publications</emphasis>
+<emphasis>By Ken Rimple &amp; Srini Penchikala with Gordon Dickens</emphasis>
+<emphasis>ISBN: 9781935182962</emphasis>
+<emphasis>December 2011</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>500 pages</emphasis></simpara>
+<simpara>As a Java developer, anything that boosts your productivity without compromising the quality of your projects is a GOOD THING. Roo is a GOOD THING. Roo is a lightweight Java development tool that works within your existing processes, rapidly produces high-quality 100% Java code, and then gets out of the way so there&#8217;s no runtime impact. Roo enforces correct coding practices and patterns and instantly integrates not only with Spring, but also with virtually every mainstream Java technology, from ActiveMQ to JPA to OSGi and more. This is a unique book that teaches you how to code Java in Roo, with a particular focus on Spring-based applications. It starts by getting you into the Roo mindset, covering Aspect Oriented Programming and annotations within a don&#8217;t-repeat-yourself, convention-over-configuration framework. Through hands-on examples, you&#8217;ll learn now Roo creates well-formed application structures and supports best practices and tools. Plus, you&#8217;ll get a quick-and-dirty guide to setting up Roo effectively in your environment.</simpara>
+</sect1>
+<sect1 id="_spring_in_a_nutshell">
+<title>Spring in a Nutshell</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Sam Brannen, Tareq Abedrabbo, Boris Burgstaller &amp; Chris Beams</emphasis>
+<emphasis>ISBN: 9780596801939</emphasis>
+<emphasis>December 2011</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>700 pages</emphasis></simpara>
+<simpara>With this book you&#8217;ll quickly get up to speed on the fundamentals of Spring and how it enables you to write clean and simple applications with code that&#8217;s portable, reusable, testable, and maintainable. You&#8217;ll also discover how flexible this framework really is. This book provides techniques that will help you use Spring in a single class within your application, in a single application layer, or throughout your entire application, from the top to the bottom. This book is still in progress, but you can get started with Spring 3.x with our Rough Cuts edition, which lets you read the manuscript as it&#8217;s being written, either online or via PDF.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781449389970?cid=1107-biblio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_dependency_injection_design_patterns_using_spring_and_guice">
+<title>Dependency Injection: Design patterns using Spring and Guice</title>
+<simpara><emphasis>Manning</emphasis>
+<emphasis>By Dhanji R. Prasanna</emphasis>
+<emphasis>ISBN: 9781933988559</emphasis>
+<emphasis>August 2009</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>352 pages</emphasis></simpara>
+<simpara>In object-oriented programming, a central program normally controls other objects in a module, library, or framework. With dependency injection, this pattern is inverted—a reference to a service is placed directly into the object which eases testing and modularity. Spring or Google Guice use dependency injection so you can focus on your core application and let the framework handle infrastructural concerns. This book explores the DI idiom in fine detail, with numerous practical examples that show you the payoffs. You&#8217;ll apply key techniques in Spring and Guice and learn important pitfalls, corner-cases, and design patterns. Readers need a working knowledge of Java but no prior experience with DI is assumed.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781933988559?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_spring_enterprise_recipes">
+<title>Spring Enterprise Recipes</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Gary Mak &amp; Josh Long</emphasis>
+<emphasis>ISBN: 9781430224976</emphasis>
+<emphasis>November 2009</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>492 pages</emphasis></simpara>
+<simpara>The release of Spring Framework 3.0 has added many improvements and new features for Spring development. Written by Gary Mak, author of the bestseller Spring Recipes, and Josh Long, an expert Spring user and developer, Spring Enterprise Recipes is one of the first books on Spring 3.0. This key book focuses on a framework-related suite of tools, extensions, plug-ins, modules, and more—all of which you may want and need for building three-tier Java EE applications.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430224976?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_beginning_spring_framework_2">
+<title>Beginning Spring Framework 2</title>
+<simpara><emphasis>Wrox</emphasis>
+<emphasis>By Thomas Van de Velde, Bruce Snyder, Christian Dupuis, Sing Li, Anne Horton &amp; Naveen Balani</emphasis>
+<emphasis>ISBN: 9780470101612</emphasis>
+<emphasis>December 2007</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>499 pages</emphasis></simpara>
+<simpara>The Spring Framework is designed from the ground up to make it easier than ever to develop server-side applications with Java Enterprise Edition. With this book as your guide, you&#8217;ll quickly learn how to use the latest features of Spring 2 and other open-source tools that can be downloaded for free on the web. With each subsequent chapter, you&#8217;ll explore an area of Spring application design and development as you walk through the steps involved in building a larg production-scale example.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780470101612?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_spring_web_flow_2_web_development_master_spring_s_well_designed_web_frameworks_to_develop_powerful_web_applications">
+<title>Spring Web Flow 2 Web Development: Master Spring’s well-designed web frameworks to develop powerful web applications</title>
+<simpara><emphasis>Packt Publishing</emphasis>
+<emphasis>By Sven Lüppken &amp; Markus Stäuble</emphasis>
+<emphasis>ISBN: 9781847195425</emphasis>
+<emphasis>March 2009</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>272 pages</emphasis></simpara>
+<simpara>Many web applications need to take the user through a defined series of steps such as e-commerce checkouts or user registrations. Spring Web Flow works well for rich and flexible user interaction, additionally it helps you to describe the flow of websites in complex processes. Spring Web Flow 2 provides the perfect way to build these kinds of features, keeping them secure, reliable, and easy to maintain. This book provides a platform on which you can build your own applications and services. The integration of Spring and Java Server Pages is clearly explained in the book. The book also explains the essential modules of the complete Spring framework stack and teaches how to manage the control flow of a Spring web application.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781847195425?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_professional_java_development_with_the_spring_framework">
+<title>Professional Java Development with the Spring Framework</title>
+<simpara><emphasis>Wrox</emphasis>
+<emphasis>By Rod Johnson, Juergen Hoeller, Alef Arendsen, Thomas Risberg &amp; Colin Sampaleanu</emphasis>
+<emphasis>ISBN: 9780764574832</emphasis>
+<emphasis>July 2005      _
+_$39.99 US</emphasis>
+<emphasis>672 pages</emphasis></simpara>
+<simpara>The Spring Framework is a major open source application development framework that makes Java/J2EE&#8482; development easier and more productive. This book shows you not only what Spring can do but why, explaining its functionality and motivation to help you use all parts of the framework to develop successful applications. You will be guided through all the Spring features and see how they form a coherent whole. In turn, this will help you understand the rationale for Spring&#8217;s approach, when to use Spring, and how to follow best practices. All this is illustrated with a complete sample application. When you finish the book, you will be well equipped to use Spring effectively in everything from simple Web applications to complex enterprise applications.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780764574832?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+</chapter>
+<chapter id="_web_and_enterprise">
+<title>Web and Enterprise</title>
+<sect1 id="_restful_java_with_jax_rs">
+<title>RESTful Java with JAX-RS</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Bill Burke</emphasis>
+<emphasis>ISBN: 9780596158040</emphasis>
+<emphasis>November 2009</emphasis>
+<emphasis>$39.99 US</emphasis>
+<emphasis>320 pages</emphasis></simpara>
+<simpara>Learn how to design and develop distributed web services in Java using RESTful architectural principals and the JAX-RS specification in Java EE 6. With this hands-on reference, you&#8217;ll focus on implementation rather than theory, and discover why the RESTful method is far better than technologies like CORBA and SOAP. It&#8217;s easy to get started with services based on the REST architecture. This book includes a technical guide that explains REST and JAX-RS, how they work, and when to use them. With the RESTEasy workbook that follows, you get step-by-step instructions for installing, configuring, and running several working JAX-RS examples using the JBoss RESTEasy implementation of JAX-RS.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596158040?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_core_javaserver_faces_third_edition">
+<title>Core JavaServer Faces, Third Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By David Geary &amp; Cay S. Horstmann</emphasis>
+<emphasis>ISBN: 9780137012893</emphasis>
+<emphasis>May 2010</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>672 pages</emphasis></simpara>
+<simpara>JavaServer Faces (JSF) is the standard Java EE technology for building web user interfaces. It provides a powerful framework for developing server-side applications, allowing you to cleanly separate visual presentation and application logic. JSF 2.0 is a major upgrade, which not only adds many useful features but also greatly simplifies the programming model by using annotations and “convention over configuration” for common tasks. To help you quickly tap into the power of JSF 2.0, this third edition has been completely updated to make optimum use of all the new features. This book provides everything you need to master the powerful and time-saving features of JSF 2.0 and is the perfect guide for programmers developing Java EE 6 web apps on Glassfish or another Java EE 6-compliant application servers, as well as servlet runners such as Tomcat 6.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780137012893?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_the_java_ee_6_tutorial_basic_concepts_fourth_edition">
+<title>The Java EE 6 Tutorial: Basic Concepts, Fourth Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By  Eric Jendrock, Ian Evans, Devika Gollapudi, Kim Haase &amp; Chinmayee Srivathsa</emphasis>
+<emphasis>ISBN: 9780137081851</emphasis>
+<emphasis>August 2010</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>600 pages</emphasis></simpara>
+<simpara>This book is a task-oriented, example-driven guide to developing enterprise applications for the Java Platform, Enterprise Edition 6 (Java EE 6). Written by members of the Java EE 6 documentation team at Oracle, this book provides new and intermediate Java programmers with a deep understanding of the platform. This edition contains extensive new material throughout, including detailed introductions to the latest APIs and platform features, and instructions for using the latest versions of GlassFish Server Open Source Edition and NetBeans IDE.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780137081851?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_javaserver_faces_2_0_the_complete_reference">
+<title>JavaServer Faces 2.0: The Complete Reference</title>
+<simpara><emphasis>McGraw-Hill Osborne Media</emphasis>
+<emphasis>By Ed Burns &amp; Chris Schalk</emphasis>
+<emphasis>ISBN: 9780071625098</emphasis>
+<emphasis>December 2009</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>751 pages</emphasis></simpara>
+<simpara>Fully revised and updated for all of the changes in JavaServer Faces (JSF) 2.0, this comprehensive volume covers every aspect of the official standard Web development architecture for JavaEE. Inside this authoritative resource, the co-spec lead for JSF at Sun Microsystems shows you how to create dynamic, cross-browser Web applications that deliver a world-class user experience while preserving a high level of code quality and maintainability. This book features an integrated sample application to use as a model for your own JSF applications, with code available online. The book explains all JSF features, including the request processing lifecycle, managed beans, page navigation, component development, Ajax, validation, internationalization, and security. Expert Group Insights throughout the book offer insider information on the design of JSF.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780071625098?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_beginning_java_ee_6_platform_with_glassfish_3">
+<title>Beginning Java EE 6 Platform with GlassFish 3</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Antonio Goncalves</emphasis>
+<emphasis>ISBN: 9781430228899</emphasis>
+<emphasis>August 2010</emphasis>
+<emphasis>550 pages</emphasis>
+<emphasis>$49.99 US</emphasis></simpara>
+<simpara>Java Enterprise Edition (Java EE) continues to be one of the leading Java technologies and platforms from Oracle (previously Sun). This is the first tutorial book on the final (RTM) version of the Java EE 6 Platform. Step by step and easy to follow, this book describes many of the Java EE 6 specifications and reference implementations, and shows them in action using practical examples. This book uses the new version of GlassFish 3 to deploy and administer the code examples. Written by an expert member of the Java EE 6 specification request and review board in the Java Community Process (JCP), this book contains the best information possible, from an expert&#8217;s perspective on enterprise Java technologies.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430228899?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_great_java_web_programming_level_1_video">
+<title>Great Java Web Programming: Level 1 (video)</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By James Turner</emphasis>
+<emphasis>ISBN: 9781449381776</emphasis>
+<emphasis>December 2009</emphasis></simpara>
+<simpara>Great Java Web Programming: Level 1 will lay the foundation for getting started creating web applications with a Java backend. Once you&#8217;ve finished the course you&#8217;ll have all the tools you need to create powerful web applications that are easy to understand and maintain. Even beyond the basics, you&#8217;ll learn how to leverage advanced language features such as the Java Standard Tag Library to make your applications clean and streamlined, but also secure and fast.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/video/programming/java/9781449381776?cid=1107-bibilio-java-link">See it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_restful_java_web_services">
+<title>RESTful Java Web Services</title>
+<simpara><emphasis>Packt Publishing</emphasis>
+<emphasis>By Jose Sandoval</emphasis>
+<emphasis>ISBN: 9781847196460</emphasis>
+<emphasis>November 2009</emphasis>
+<emphasis>$35.99 US</emphasis>
+<emphasis>256 pages</emphasis></simpara>
+<simpara>If you are already familiar with REST theory but are new to RESTful Java web services, and want to use the Java technology stack together with Java RESTful frameworks to create robust web services, this is the book for you. This book covers the theory of REST; practical coding examples for RESTful clients; a practical outline of the RESTful design process—yes, it&#8217;s different from traditional web application development; and a complete implementation of a non-trivial web service using the following frameworks: Jersey&#8217;s JAX-RS, Restlet&#8217;s Lightweight REST, JBoss&#8217;s JAX-RS RESTEasy, and Struts 2 with the REST plug-in.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781847196460?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_enterprise_javabeans_3_1">
+<title>Enterprise JavaBeans 3.1</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Andrew Lee Rubinger &amp; Bill Burke</emphasis>
+<emphasis>ISBN: 9780596158026</emphasis>
+<emphasis>September 2010</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>768 pages</emphasis></simpara>
+<simpara>Learn how to code, package, deploy, and test functional Enterprise JavaBeans with the latest edition of bestselling guide. Written by the developers of the JBoss EJB 3.1 implementation, this book brings you up to speed on each of the component types and container services in this technology, while the workbook in the second section provides several hands-on examples for putting the concepts into practice. This book is the most complete reference you&#8217;ll find on this specification.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596158026?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_beginning_javaserver_pages">
+<title>Beginning JavaServer Pages</title>
+<simpara><emphasis>Wrox</emphasis>
+<emphasis>By Vivek Chopra, Sing Li, Rupert Jones, Jon Eaves &amp; John T. Bell</emphasis>
+<emphasis>ISBN: 9780764574856</emphasis>
+<emphasis>February 2005</emphasis>
+<emphasis>$39.95 US</emphasis>
+<emphasis>1296 pages</emphasis></simpara>
+<simpara>JSP is one of the core technologies for server-side Java applications and the 2.0 release, which this book covers in detail, and makes JSP an even more powerful tool. This book walks Java programmers and Web developers through JSP fundamentals, including JSP syntax and directives, JSP Expression Language, JSP Tag libraries, JSTL, and techniques for testing and debugging. It also shows you how to use JSP in real-world Web applications along with open source frameworks such as Struts, WebWork, and Turbine, software design methodologies, and developer tools like Ant, jUnit, and CVS, as well as popular IDEs (integrated development environmnents).</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780764574856?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_google_app_engine_java_and_gwt_application_development">
+<title>Google App Engine Java and GWT Application Development</title>
+<simpara><emphasis>Packt Publishing</emphasis>
+<emphasis>By Daniel Guermeur &amp; Amy Unruh</emphasis>
+<emphasis>ISBN: 9781849690447</emphasis>
+<emphasis>December 2010</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>480 pages</emphasis></simpara>
+<simpara>Google Application Engine is a cloud computing technology that lets you run web applications that are easy to build and maintain as well as being scaled and load-balanced automatically. To build interesting and interactive web applications developers are turning to Java. However, building and deploying scalable web applications using Google Web Toolkit and Google App Engine for Java can be challenging even to developers. The start to finish approach of this book helps you meet these challenges. This book is designed to give developers all the information they need to develop their own GAE+GWT applications, with a particular focus on some of the technologies useful for building scalable social-media-oriented applications. It is an easy-to-follow guide that shows you how to get the most out of combining the powerful features of GAE and GWT. It provides you with solutions to many of the problems that arise in developing, maintaining, and scaling web applications. Packed with great examples and clear explanations, you will be able to build your own web applications that are scalable and reliable using GAE and GWT with Java.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781849690447?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_core_servlets_and_javaserver_pages_volume_2_advanced_technologies_second_edition">
+<title>Core Servlets and JavaServer Pages, Volume 2: Advanced Technologies, Second Edition</title>
+<simpara><emphasis>Prentice Hall</emphasis>
+<emphasis>By Marty Hall, Larry Brown &amp; Yaakov Chaikin</emphasis>
+<emphasis>ISBN: 9780131482609</emphasis>
+<emphasis>December 2007</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>736 pages</emphasis></simpara>
+<simpara>Java EE is the technology of choice for e-commerce applications, interactive Web sites, and Web-enabled services. Servlet and JSP technology provides the link between Web clients and server-side applications on this platform. This book is the definitive guide to the advanced features and capabilities provided by servlets and JSP. Like the first volume, it teaches state-of-the-art techniques and best practices illustrated with complete, working, fully documented programs. Complete source code for all examples is available free for unrestricted use at www.volume2.coreservlets.com. For information on Java training from Marty Hall, go to courses.coreservlets.com.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780131482609?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_patterns_of_enterprise_application_architecture">
+<title>Patterns of Enterprise Application Architecture</title>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Martin Fowler, David Rice, Matthew Foemmel, Edward Hieatt, Robert Mee &amp; Randy Stafford</emphasis>
+<emphasis>ISBN: 9780321127426</emphasis>
+<emphasis>November 2002</emphasis>
+<emphasis>$69.99 US</emphasis>
+<emphasis>560 pages</emphasis></simpara>
+<simpara>The practice of enterprise application development has benefited from the emergence of many new enabling technologies. Multi-tiered object-oriented platforms, such as Java and .NET, have become commonplace. These new tools and technologies are capable of building powerful applications, but they are not easily implemented. Common failures in enterprise applications often occur because their developers do not understand the architectural lessons that experienced object developers have learned. This book  is written in direct response to the stiff challenges that face enterprise application developers. The author, noted object-oriented designer Martin Fowler, noticed that despite changes in technology&#8212;from Smalltalk to CORBA to Java to .NET&#8212;the same basic design ideas can be adapted and applied to solve common problems. With the help of an expert group of contributors, Martin distills over forty recurring solutions into patterns. The result is an indispensable handbook of solutions that are applicable to any enterprise application platform. Armed with this book, you will have the knowledge necessary to make important architectural decisions about building an enterprise application and the proven patterns for use when building them.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321127426?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_practical_jira_administration">
+<title>Practical JIRA Administration</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Matthew Doar</emphasis>
+<emphasis>ISBN: 9781449305413</emphasis>
+<emphasis>May 2011</emphasis>
+<emphasis>19.99 US</emphasis>
+<emphasis>92 pages</emphasis></simpara>
+<simpara>If you&#8217;re familiar with JIRA for issue tracking, bug tracking, and other uses, you know it can sometimes be tricky to set up and manage. In this concise book, software toolsmith Matt Doar answers difficult and frequently-asked questions about JIRA administration, and shows you how JIRA is intended to be used</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/-/9781449309701?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_practical_jira_plugins">
+<title>Practical JIRA Plugins</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Matthew Doar</emphasis>
+<emphasis>ISBN:  9781449308278</emphasis>
+<emphasis>July 2011</emphasis>
+<emphasis>$29.99 US</emphasis>
+<emphasis>50 pages</emphasis></simpara>
+<simpara>JIRA is widely used as a product and bug tracking system, particularly in the Java world, but also in many other environment. However, it&#8217;s a large open source project, for which setup and management can be tricky. This book shows you how to develop plugins that extend JIRA&#8217;s functionality.</simpara>
+</sect1>
+<sect1 id="_head_first_servlets_and_jsp_second_edition">
+<title>Head First Servlets and JSP, Second Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Bryan Basham, Kathy Sierra &amp; Bert Bates</emphasis>
+<emphasis>ISBN: 9780596516680</emphasis>
+<emphasis>March 2008</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>912 pages</emphasis></simpara>
+<simpara>Looking to study up for the new J2EE 1.5 Sun Certified Web Component Developer (SCWCD) exam? This book will get you way up to speed on the technology you&#8217;ll know it so well, in fact, that you can pass the brand new J2EE 1.5 exam. Learn how to write servlets and JSPs, what makes a web container tick (and what ticks it off), how to use JSP&#8217;s Expression Language (EL for short), and how to write deployment descriptors for your web applications. Master the c:out tag, and get a handle on exactly what&#8217;s changed since the older J2EE 1.4 exam. You&#8217;ll interact with servlets and JSPs in ways that help you learn quickly and deeply. And when you&#8217;re through with the book, you can take a brand-new mock exam, created specifically to simulate the real test-taking experience.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596516680?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_enterprise_javabeans_3_1_sixth_edition">
+<title>Enterprise JavaBeans 3.1, Sixth Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Andrew Lee Rubinger &amp; Bill Burke</emphasis>
+<emphasis>ISBN: 9780596158026</emphasis>
+<emphasis>September 2010</emphasis>
+<emphasis>$54.99 US</emphasis>
+<emphasis>768 pages</emphasis></simpara>
+<simpara>Learn how to code, package, deploy, and test functional Enterprise JavaBeans with the latest edition of this bestselling guide. Written by the developers of JBoss EJB 3.1, this book not only brings you up to speed on each component type and container service in this implementation, it also provides a workbook with several hands-on examples to help you gain immediate experience with these components. This book gives you a straightforward, no-nonsense explanation of the underlying technology of JavaBeans, including Java classes and interfaces, the component model, and the runtime behavior of EJB.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596158026?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+<simpara>===Eclipse Web Tools Platform: Developing Java™ Web Applications</simpara>
+<simpara><emphasis>Addison-Wesley Professional</emphasis>
+<emphasis>By Naci Dai, Lawrence Mandel &amp; Arthur Ryman</emphasis>
+<emphasis>ISBN: 9780321396853</emphasis>
+<emphasis>May 2007</emphasis>
+<emphasis>$59.99 US</emphasis>
+<emphasis>752 pages</emphasis></simpara>
+<simpara>The Eclipse Web Tools Platform (WTP) seamlessly integrates all the tools today’s Java Web developer needs. WTP is both an unprecedented Open Source resource for working developers and a powerful foundation for state-of-the-art commercial products. This book offers in-depth descriptions of every tool included in WTP, introducing powerful capabilities never before available in Eclipse. The authors cover the entire Web development process–from defining Web application architectures and development processes through testing and beyond. And if you’re seeking to extend WTP, this book provides an introduction to the platform’s rich APIs.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780321396853?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_beginning_java_ee_6_platform_with_glassfish_3_from_novice_to_professional">
+<title>Beginning Java EE 6 Platform with GlassFish™ 3: From Novice to Professional</title>
+<simpara><emphasis>Apress</emphasis>
+<emphasis>By Antonio Goncalves</emphasis>
+<emphasis>ISBN: 9781430219545</emphasis>
+<emphasis>May 2009</emphasis>
+<emphasis>$44.99 US</emphasis>
+<emphasis>500 pages</emphasis></simpara>
+<simpara>Sun&#8217;s enterprise Java™ platform, Java EE (Enterprise Edition), is getting a facelift! This book is one of the first tutorial books on the Java EE 6 Platform. Step-by-step and easy to follow, this book describes many of the Java EE 6 specifications and reference implementations and shows them in action using practical examples. Written by an expert member of the Java EE 6 specification request and review board in the Java Community Process (JCP), this book contains the best information possible, from an expert&#8217;s perspective in enterprise Java technologies and platform.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430219545?cid=1107-bibilio-java-link">Read in on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_servlet_amp_jsp_cookbook">
+<title>Java Servlet &amp; JSP Cookbook</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Bruce Perry</emphasis>
+<emphasis>ISBN: 9780596005726</emphasis>
+<emphasis>Jan 2004</emphasis>
+<emphasis>$49.99 US</emphasis>
+<emphasis>752 pages</emphasis></simpara>
+<simpara>With literally hundreds of examples and thousands of lines of code, this book yields tips and techniques that any Java web developer who uses JavaServer Pages or servlets will use every day, along with full-fledged solutions to significant web application development problems that developers can insert directly into their own applications. This book presents real-world problems, and provides concise, practical solutions to each. This book also offers clear explanations of how and why the code works, warns of potential pitfalls, and directs you to sources of additional information, so you can learn to adapt the problem-solving techniques to similar situations. These recipes include vital topics like the use of Ant to setup a build environment, extensive coverage of the WAR file format and web.xml deployment descriptor, file-uploading, error-handling, cookies, logging, dealing with non-HTML content, multimedia, request filtering, web services, I18N, web services, and a host of other topics that frustrate even the most seasoned developers.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/web-development/jsp/0596005725?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_java_servlet_programming_second_edition">
+<title>Java Servlet Programming, Second Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Jason Hunter &amp; William Crawford</emphasis>
+<emphasis>ISBN: 9780596000400</emphasis>
+<emphasis>April 2001</emphasis>
+<emphasis>$44.95 US</emphasis>
+<emphasis>784 pages</emphasis></simpara>
+<simpara>Servlets are an exciting and important technology that ties Java to the Web, allowing programmers to write Java programs that create dynamic web content. This book covers everything Java developers need to know to write effective servlets. It explains the servlet lifecycle, showing how to use servlets to maintain state information effortlessly. It also describes how to serve dynamic web content, including both HTML pages and multimedia data, and explores more advanced topics like integrated session tracking, efficient database connectivity using JDBC, applet-servlet communicaton, interservlet communication, and internationalization. Readers can use the book&#8217;s numerous real-world examples as the basis for their own servlets. The second edition has been completely updated to cover the new features of Version 2.2 of the Java Servlet API. It introduces chapters on servlet security and advanced communication, and also introduces several popular tools for easier integration of servlet technology with dynamic web pages.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596000400?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
+<sect1 id="_javaserver_pages_third_edition">
+<title>JavaServer Pages, Third Edition</title>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Hans Bergsten</emphasis>
+<emphasis>ISBN: 9780596005634</emphasis>
+<emphasis>December 2003</emphasis>
+<emphasis>$44.95 US</emphasis>
+<emphasis>768 pages</emphasis></simpara>
+<simpara>JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights. This Third Edition is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596005634?cid=1107-bibilio-java-link">Read in on Safari Online Books</ulink></emphasis>
+=== Ajax on Java</simpara>
+<simpara><emphasis>O&#8217;Reilly Media</emphasis>
+<emphasis>By Steven Douglas Olson</emphasis>
+<emphasis>ISBN: 9780596101879</emphasis>
+<emphasis>February 2007</emphasis>
+<emphasis>$29.99 US</emphasis>
+<emphasis>240 pages</emphasis></simpara>
+<simpara>This practical guide shows you how to make your Java web applications more responsive and dynamic by incorporating new Ajaxian features, including suggestion lists, drag-and-drop, and more. Java developers can choose between many different ways of incorporating Ajax, from building JavaScript into your applications "by hand" to using the new Google Web Toolkit (GWT). Ajax gives web developers the ability to build applications that are more interactive, more dynamic, more exciting and enjoyable for your users. If you&#8217;re a Java developer and haven&#8217;t tried Ajax, but would like to get started, this book is essential. Your users will be grateful.</simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596101879?cid=1107-bibilio-java-link">Read it on Safari Online Books</ulink></emphasis></simpara>
+</sect1>
 </chapter>
 </book>
