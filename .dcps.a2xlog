@@ -26,4 +26,4 @@ asciidoc: book.asc: line 24: reading: /work/tools/svn_hooks/checkouts/externalau
 asciidoc: book.asc: line 26: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter9.asciidoc
 asciidoc: book.asc: line 28: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter10.asciidoc
 asciidoc: book.asc: line 30: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter11.asciidoc
-Thu Jul  7 15:30:33 EDT 2011
+Thu Jul  7 15:49:41 EDT 2011
