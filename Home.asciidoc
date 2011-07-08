@@ -1,5 +1,6 @@
 This is the Java book.
 
+* [[Offer | offer_page]]
 * [[Introduction |  Java_introduction]]
 * [[Why OSCON Java |  Java_mikel_oscon]]
 * [[Learning Java|  Java_chapter1]]

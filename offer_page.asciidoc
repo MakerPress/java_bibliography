@@ -1,0 +1,1 @@
+image::attachments/safari_oscon_ad.png[]
