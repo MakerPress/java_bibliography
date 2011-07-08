@@ -1,1 +1,3 @@
-image::attachments/safari_oscon_ad.png[scaledwidth="95%"]
+== Special Offer
+
+image::attachments/safari_ad_4_by_4.png[scaledwidth="95%"]
