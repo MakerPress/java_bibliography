@@ -1,1 +1,1 @@
-image::attachments/safari-oscon_ad.png[]
+image::attachments/safari_oscon_ad.png[]
