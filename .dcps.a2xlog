@@ -22,10 +22,11 @@ asciidoc: book.asc: line 17: reading: /work/tools/svn_hooks/checkouts/externalau
 asciidoc: book.asc: line 19: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter4.asciidoc
 asciidoc: book.asc: line 21: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter5.asciidoc
 asciidoc: book.asc: line 23: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter6.asciidoc
-iidoc: book.asc: line 25: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter6.asciidoc
-asciidoc: book.asc: line 27: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter7.asciidoc
-asciidoc: book.asc: line 29: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter8.asciidoc
-asciidoc: book.asc: line 31: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter9.asciidoc
-asciidoc: book.asc: line 33: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter10.asciidoc
-asciidoc: book.asc: line 35: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter11.asciidoc
+asciidoc: book.asc: line 25: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter7.asciidoc
+asciidoc: book.asc: line 27: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter8.asciidoc
+asciidoc: book.asc: line 29: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter9.asciidoc
+asciidoc: book.asc: line 31: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter10.asciidoc
+asciidoc: book.asc: line 33: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter11.asciidoc
+idoc: book.asc: line 35: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter11.asciidoc
 Fri Jul  8 20:13:47 EDT 2011
+Fri Jul  8 20:14:27 EDT 2011
