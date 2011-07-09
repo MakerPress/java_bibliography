@@ -1,20 +1,21 @@
 Using fo/series/animal6x9.xsl stylesheet... 
 Showing comments and <remark>s: false...
 Showing draft timestamps: false...
-Expanding book to /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.346.xml
-Validating...
-Converting file /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml to FO ...
-Making portrait pages on USletter paper (36pcx54pc)
+Expanding book to /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.695.xml
+/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:486: parser error : Opening and ending tag mismatch: emphasis line 486 and title
+<simpara><emphasis>ISBN: 978047177le>Professional Java JDK, 6th Edition</title>
+                                                                               ^
+/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:495: parser error : Opening and ending tag mismatch: simpara line 486 and sect1
+</sect1>
+        ^
+/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:518: parser error : Opening and ending tag mismatch: sect1 line 482 and chapter
+</chapter>
+          ^
+/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:1338: parser error : Opening and ending tag mismatch: chapter line 370 and book
+</book>
+       ^
+/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:1339: parser error : Premature end of data in tag book line 6
 
-Making pages with cropmarks        
-        
-FO generated: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.488.fo
-Converting FO to PDF ...
-Finished ok
-Moving temporary PDF /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.303.pdf to /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.pdf
-Converting file /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml to FO for parallel web PDF ...
-Making portrait pages on USletter paper (36pcx54pc)
-Web FO generated: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.488.fo
-Converting web FO to web PDF ...
-Finished parallel web version ok
-Moving temporary web PDF /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.850.pdf to /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.web.pdf
+^
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  ERROR: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml did not pass entity resolution with xmllint. Is it well-formed?! Exiting...
