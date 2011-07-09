@@ -1,21 +1,9 @@
 Using fo/series/animal6x9.xsl stylesheet... 
 Showing comments and <remark>s: false...
 Showing draft timestamps: false...
-Expanding book to /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.695.xml
-/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:486: parser error : Opening and ending tag mismatch: emphasis line 486 and title
-<simpara><emphasis>ISBN: 978047177le>Professional Java JDK, 6th Edition</title>
-                                                                               ^
-/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:495: parser error : Opening and ending tag mismatch: simpara line 486 and sect1
-</sect1>
-        ^
-/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:518: parser error : Opening and ending tag mismatch: sect1 line 482 and chapter
-</chapter>
-          ^
-/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:1338: parser error : Opening and ending tag mismatch: chapter line 370 and book
-</book>
-       ^
-/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:1339: parser error : Premature end of data in tag book line 6
-
-^
+Expanding book to /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml.dcps.177.xml
+/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml:1336: parser error : Extra content at the end of the document
+ Your users will be grateful.</simpara>
+ ^
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   ERROR: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml did not pass entity resolution with xmllint. Is it well-formed?! Exiting...
