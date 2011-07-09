@@ -14,18 +14,18 @@ asciidoc: book.asc: line 2: macro redefinition:
 asciidoc: book.asc: line 2: macro redefinition: #
 asciidoc: writing: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book.dcpsgen.xml
 asciidoc: book.asc: line 2: evaluating: {include:/work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/book-docinfo.xml}
-asciidoc: book.asc: line 9: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/offer_page.asciidoc
-asciidoc: book.asc: line 11: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_introduction.asciidoc
-asciidoc: book.asc: line 13: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_mikel_oscon.asciidoc
-asciidoc: book.asc: line 15: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter1.asciidoc
-asciidoc: book.asc: line 17: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter2.asciidoc
-asciidoc: book.asc: line 19: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter3.asciidoc
-asciidoc: book.asc: line 21: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter4.asciidoc
-asciidoc: book.asc: line 23: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter5.asciidoc
-asciidoc: book.asc: line 25: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter6.asciidoc
+asciidoc: book.asc: line 9: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_introduction.asciidoc
+asciidoc: book.asc: line 11: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_mikel_oscon.asciidoc
+asciidoc: book.asc: line 13: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter1.asciidoc
+asciidoc: book.asc: line 15: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter2.asciidoc
+asciidoc: book.asc: line 17: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter3.asciidoc
+asciidoc: book.asc: line 19: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter4.asciidoc
+asciidoc: book.asc: line 21: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter5.asciidoc
+asciidoc: book.asc: line 23: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter6.asciidoc
+iidoc: book.asc: line 25: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter6.asciidoc
 asciidoc: book.asc: line 27: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter7.asciidoc
 asciidoc: book.asc: line 29: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter8.asciidoc
 asciidoc: book.asc: line 31: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter9.asciidoc
 asciidoc: book.asc: line 33: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter10.asciidoc
 asciidoc: book.asc: line 35: reading: /work/tools/svn_hooks/checkouts/externalauthorsbooks9781449311896current/Java_chapter11.asciidoc
-Fri Jul  8 20:04:55 EDT 2011
+Fri Jul  8 20:13:47 EDT 2011
