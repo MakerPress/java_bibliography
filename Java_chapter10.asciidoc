@@ -242,7 +242,7 @@ _By Rod Johnson, Juergen Hoeller, Alef Arendsen, Thomas Risberg & Colin Sampalea
 
 _ISBN: 9780764574832_
 
-_July 2005	_
+_July 2005_
 
 _$39.99 US_
 
