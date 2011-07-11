@@ -13,8 +13,8 @@
     <firstname>Editors of Safari Books Online</firstname>
   </author>
 </bookinfo>
-<preface id="_preface">
-<title>Preface</title>
+<preface id="_special_offer">
+<title>Special Offer</title>
 <simpara>This ebook is brought to you by Safari Books Online, which provides full access to all of the resources in this bibliography. A subscription to Safari&#8217;s "cloud library" gives you unlimited use of more than 16,000 books and videos. For a free trial, go to <ulink url="http://safaribooksonline.com/oscon11">http://safaribooksonline.com/oscon11</ulink>.</simpara>
 <simpara>In addition, you can also receive a 20% discount on <ulink url="https://en.oreilly.com/oscon2011/public/regwith/os11rad?cmp=il-radar-os11-why-oscon-java">OSCON Java 2011</ulink>, being held July 25-27 in Portland, Oregon.  This event is co-located with OSCON and is focused on open source technologies that make up the Java ecosystem.  Just register with the code <emphasis role="strong">OS11JEBK</emphasis>.</simpara>
 <informalfigure>
