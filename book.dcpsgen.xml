@@ -88,6 +88,9 @@ Cloud computing: The cloud has changed the nature of system administration and m
 </chapter>
 <chapter id="_learning_java">
 <title>Learning Java</title>
+<sidebar>
+<simpara>Safari Books Online provides full access to all of the resources in this bibliography. For a free trial, go to <ulink url="http://safaribooksonline.com/oscon11">http://safaribooksonline.com/oscon11</ulink></simpara>
+</sidebar>
 <sect1 id="_head_first_java">
 <title>Head First Java</title>
 <simpara><emphasis>O&#8217;Reilly Media</emphasis></simpara>
@@ -96,7 +99,7 @@ Cloud computing: The cloud has changed the nature of system administration and m
 <simpara><emphasis>February 2005</emphasis></simpara>
 <simpara><emphasis>$44.95 US</emphasis></simpara>
 <simpara><emphasis>720 pages</emphasis></simpara>
-<simpara>Learning a complex new language is no easy task especially when it s an object-oriented computer programming language like Java. This book combines puzzles, strong visuals, mysteries, and soul-searching interviews with famous Java objects to engage you in many different ways. It&#8217;s fast, it&#8217;s fun, and it&#8217;s effective. You&#8217;ll learn everything from the Java fundamentals to advanced topics, including threads, network sockets, and distributed programming with RMI.  By exploiting how your brain works, this book compresses the time it takes to learn and retain&#8212;complex information. Its unique approach not only shows you what you need to know about Java syntax, it teaches you to think like a Java programmer. If you want to be bored, buy some other book. But if you want to understand Java, this book&#8217;s for you.</simpara>
+<simpara>Learning a complex new language is no easy task especially when it&#8217;s an object-oriented computer programming language like Java. This book combines puzzles, strong visuals, mysteries, and soul-searching interviews with famous Java objects to engage you in many different ways. It&#8217;s fast, it&#8217;s fun, and it&#8217;s effective. You&#8217;ll learn everything from the Java fundamentals to advanced topics, including threads, network sockets, and distributed programming with RMI.  By exploiting how your brain works, this book compresses the time it takes to learn and retain&#8212;complex information. Its unique approach not only shows you what you need to know about Java syntax, it teaches you to think like a Java programmer. If you want to be bored, buy some other book. But if you want to understand Java, this book&#8217;s for you.</simpara>
 <simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/0596009208?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
 </sect1>
 <sect1 id="_sams_teach_yourself_java_in_24_hours_fifth_edition">
@@ -1271,7 +1274,9 @@ Cloud computing: The cloud has changed the nature of system administration and m
 <simpara><emphasis>768 pages</emphasis></simpara>
 <simpara>Learn how to code, package, deploy, and test functional Enterprise JavaBeans with the latest edition of this bestselling guide. Written by the developers of JBoss EJB 3.1, this book not only brings you up to speed on each component type and container service in this implementation, it also provides a workbook with several hands-on examples to help you gain immediate experience with these components. This book gives you a straightforward, no-nonsense explanation of the underlying technology of JavaBeans, including Java classes and interfaces, the component model, and the runtime behavior of EJB.</simpara>
 <simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9780596158026?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
-<simpara>===Eclipse Web Tools Platform: Developing Java™ Web Applications</simpara>
+</sect1>
+<sect1 id="_eclipse_web_tools_platform_developing_java_web_applications">
+<title>Eclipse Web Tools Platform: Developing Java™ Web Applications</title>
 <simpara><emphasis>Addison-Wesley Professional</emphasis></simpara>
 <simpara><emphasis>By Naci Dai, Lawrence Mandel &amp; Arthur Ryman</emphasis></simpara>
 <simpara><emphasis>ISBN: 9780321396853</emphasis></simpara>
@@ -1290,7 +1295,7 @@ Cloud computing: The cloud has changed the nature of system administration and m
 <simpara><emphasis>$44.99 US</emphasis></simpara>
 <simpara><emphasis>500 pages</emphasis></simpara>
 <simpara>Sun&#8217;s enterprise Java™ platform, Java EE (Enterprise Edition), is getting a facelift! This book is one of the first tutorial books on the Java EE 6 Platform. Step-by-step and easy to follow, this book describes many of the Java EE 6 specifications and reference implementations and shows them in action using practical examples. Written by an expert member of the Java EE 6 specification request and review board in the Java Community Process (JCP), this book contains the best information possible, from an expert&#8217;s perspective in enterprise Java technologies and platform.</simpara>
-<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430219545?cid=1107-bibilio-java-link">Read in on Safari Books Online</ulink></emphasis></simpara>
+<simpara><emphasis><ulink url="http://my.safaribooksonline.com/book/programming/java/9781430219545?cid=1107-bibilio-java-link">Read it on Safari Books Online</ulink></emphasis></simpara>
 </sect1>
 <sect1 id="_java_servlet_amp_jsp_cookbook">
 <title>Java Servlet &amp; JSP Cookbook</title>
