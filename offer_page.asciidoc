@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 == Special Offer
 
 image::attachments/safari_ad_4_by_4.png[scaledwidth="95%"]
+=======
+== A Special Offer for OSCON Java 2011
+
+image::attachments/safari_oscon_ad.png[scaledwidth="95%"]
+>>>>>>> be86d6ee3ab9b9226e315c608ae580ea61a469c1
