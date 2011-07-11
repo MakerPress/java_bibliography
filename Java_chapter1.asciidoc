@@ -1,5 +1,8 @@
 == Learning Java
 
+****
+Safari Books Online provides full access to all of the resources in this bibliography. For a free trial, go to http://safaribooksonline.com/oscon11
+****
 
 === Head First Java
 
@@ -15,7 +18,7 @@ _$44.95 US_
 
 _720 pages_
 
-Learning a complex new language is no easy task especially when it s an object-oriented computer programming language like Java. This book combines puzzles, strong visuals, mysteries, and soul-searching interviews with famous Java objects to engage you in many different ways. It's fast, it's fun, and it's effective. You'll learn everything from the Java fundamentals to advanced topics, including threads, network sockets, and distributed programming with RMI.  By exploiting how your brain works, this book compresses the time it takes to learn and retain--complex information. Its unique approach not only shows you what you need to know about Java syntax, it teaches you to think like a Java programmer. If you want to be bored, buy some other book. But if you want to understand Java, this book's for you.
+Learning a complex new language is no easy task especially when it's an object-oriented computer programming language like Java. This book combines puzzles, strong visuals, mysteries, and soul-searching interviews with famous Java objects to engage you in many different ways. It's fast, it's fun, and it's effective. You'll learn everything from the Java fundamentals to advanced topics, including threads, network sockets, and distributed programming with RMI.  By exploiting how your brain works, this book compresses the time it takes to learn and retain--complex information. Its unique approach not only shows you what you need to know about Java syntax, it teaches you to think like a Java programmer. If you want to be bored, buy some other book. But if you want to understand Java, this book's for you.
 
 _http://my.safaribooksonline.com/book/programming/java/0596009208?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 

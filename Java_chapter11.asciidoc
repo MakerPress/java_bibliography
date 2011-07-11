@@ -282,7 +282,7 @@ Learn how to code, package, deploy, and test functional Enterprise JavaBeans wit
 
 _http://my.safaribooksonline.com/book/programming/java/9780596158026?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 
-===Eclipse Web Tools Platform: Developing Java™ Web Applications
+=== Eclipse Web Tools Platform: Developing Java™ Web Applications
 
 _Addison-Wesley Professional_
 
@@ -316,7 +316,7 @@ _500 pages_
 
 Sun's enterprise Java™ platform, Java EE (Enterprise Edition), is getting a facelift! This book is one of the first tutorial books on the Java EE 6 Platform. Step-by-step and easy to follow, this book describes many of the Java EE 6 specifications and reference implementations and shows them in action using practical examples. Written by an expert member of the Java EE 6 specification request and review board in the Java Community Process (JCP), this book contains the best information possible, from an expert's perspective in enterprise Java technologies and platform.
 
-_http://my.safaribooksonline.com/book/programming/java/9781430219545?cid=1107-bibilio-java-link[Read in on Safari Books Online]_
+_http://my.safaribooksonline.com/book/programming/java/9781430219545?cid=1107-bibilio-java-link[Read it on Safari Books Online]_
 
 === Java Servlet & JSP Cookbook
 
