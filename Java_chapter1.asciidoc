@@ -18,10 +18,7 @@ _720 pages_
 
 Learning a complex new language is no easy task especially when it s an object-oriented computer programming language like Java. This book combines puzzles, strong visuals, mysteries, and soul-searching interviews with famous Java objects to engage you in many different ways. It's fast, it's fun, and it's effective. You'll learn everything from the Java fundamentals to advanced topics, including threads, network sockets, and distributed programming with RMI.  By exploiting how your brain works, this book compresses the time it takes to learn and retain--complex information. Its unique approach not only shows you what you need to know about Java syntax, it teaches you to think like a Java programmer. If you want to be bored, buy some other book. But if you want to understand Java, this book's for you.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/0596009208?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/n50bAF[Read it on Safari Books Online_
 
 === Sams Teach Yourself Java in 24 Hours, Fifth Edition
 
@@ -40,10 +37,7 @@ _432 pages_
 
 In just 24 lessons of one hour or less, you can learn how to create Java applications with the free NetBeans visual editing tools. Using a straightforward, step-by-step approach, popular author Rogers Cadenhead helps you master the skills and technology you need to create desktop and web programs, web services, and even a browser game in Java. Full-color figures and clear step-by-step instructions visually show you how to program with Java. Quizzes and Exercises at the end of each chapter help you test your knowledge.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780672330766?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/oh1Hc3[Read it on Safari Books Online_
 
 === Java Programming 24-Hour Trainer
 
@@ -62,10 +56,7 @@ _504 pages_
 
 As one of the most popular software languages for building Web applications, Java is often the first programming language developers learn. With this invaluable book-and-DVD package, Java authority Yakov Fain fully covers Java's new features as well as its language extensions, classes and class methods, and the Swing Application Framework. For each lesson that he discusses in the book, there is an accompanying instructional video on the DVD to reinforce your learning experience.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780470889640?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/pVJqyD[Read it on Safari Books Online_
 
 === Core Java, Volume I–Fundamentals, Eighth Edition
 
@@ -84,10 +75,7 @@ _864 pages_
 
 This book is the definitive guide to Java for serious programmers who want to put Java to work on real projects. Fully updated for the new Java SE 6 platform, this no-nonsense tutorial and reliable reference illuminates the most important language and library features with thoroughly tested real-world examples. The example programs have been carefully crafted to be easy to understand as well as useful in practice, so you can rely on them as an outstanding starting point for your own code. The authors concentrate on the fundamental concepts of the Java language, along with the basics of user-interface programming. 
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780132354769?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/pW8QaM[Read it on Safari Books Online_
 
 === Java for Programmers: Deitel® Developer Series, Second Edition
 
@@ -106,10 +94,7 @@ _1168 pages_
 
 Written for programmers with a background in high-level language programming, this book applies the Deitel signature live-code approach to teaching programming and explores the Java language and Java APIs in depth. The book presents the concepts in the context of fully tested programs, complete with syntax shading, code highlighting, line-by-line code descriptions and program outputs. The book features 220 Java applications with over 18,000 lines of proven Java code, and hundreds of tips that will help you build robust applications.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780132821544?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/pon0oi[Read it on Safari Books Online_
 
 === Java How to Program, Seventh Edition
 
@@ -128,10 +113,7 @@ _1500 pages_
 
 The Deitels' groundbreaking How to Program series offers unparalleled breadth and depth of object-oriented programming concepts and intermediate-level topics for further study. This survey of Java programming contains an extensive OOD/UML 2 case study on developing an automated teller machine. The Seventh Edition has been extensively fine-tuned and is completely up-to-date with Sun Microsystems, Inc.’s latest Java release–Java Standard Edition (Java SE) 6
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780136085676?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/n9DptP[Read it on Safari Books Online_
 
 === Java Fundamentals I and II (Video Training)
 
@@ -164,10 +146,7 @@ _984 pages_
 
 This book is the most widely sought introduction to the programming language that's changed the way we think about computing. Our updated third edition takes an objective, no-nonsense approach to the new features in Java 5.0, some of which are drastically different from the way things were done in any previous versions. The most essential change is the addition of "generics", a feature that allows developers to write, test, and deploy code once, and then reuse the code again and again for different data types. The beauty of generics is that more problems will be caught during development, and this book will show you exactly how it's done. This book addresses all of the important uses of Java, such as web applications, servlets, and XML that are increasingly driving enterprise applications.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780596008734?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/nW9sdN[Read it on Safari Books Online_
 
 === Great Java (video)
 
@@ -184,10 +163,7 @@ _$59.99 US_
 
 This video will teach you the fundamentals of Java, from the basics of compilation through methods, objects, and the key concepts of good programming. By the time you're through these lessons, you'll be programming, and programming well. Throughout the course, you'll progressively learn to code and compile programs, work extensively with text, and declare, convert, and cast between data types. You'll also read files, get user input, and build arrays, including multi-dimensional arrays. When you buy this video you get access to an entire video library of lessons-including lessons that aren't available yet! 
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/video/programming/java/9781449380182?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/nn1gQF[Read it on Safari Books Online_
 
 === Java For Dummies
 
@@ -206,10 +182,7 @@ _384 pages_
 
 Even if you're new to Java programming—or to programming in general—you can get up and running on this wildly popular language in a hurry. This book makes it easy! From how to install and run Java to understanding classes and objects and juggling values with arrays and collections, you will get up to speed on the new features of Java 6 in no time.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780470087169?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/nYUGn5[Read it on Safari Books Online_
 
 === Sams Teach Yourself Java 6 in 21 Days
 
@@ -228,10 +201,7 @@ _720 pages_
 
 In just 21 days, you can acquire the knowledge and skills necessary to develop three kinds of programs with Java: applications on your computer, servlets on a web server, and browser-launched Java Web Start applications. By following the 21 carefully organized lessons in this book, anyone can learn the basics of Java programming. You can work through each chapter sequentially to make sure you thoroughly understand all of the concepts and methodologies, or you can focus on specific lessons to learn the techniques that interest you most.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780672329432?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/o2Yx68[Read it on Safari Books Online_
 
 === A Programmer’s Guide to Java SCJP Certification: A Comprehensive Primer, Third Edition
 
@@ -250,10 +220,7 @@ _1088 pages_
 
 This book will help you prepare for and pass the Sun Certified Programmer for the Java Platform SE 6 (CX-310-065) Exam. It is written for any experienced programmer (with or without previous knowledge of Java) interested in mastering the Java programming language and passing the SCJP 1.6 Exam. It provides detailed coverage of all exam topics and objectives, readily runnable code examples, programming exercises, extensive review questions, and a new mock exam. In addition, as a comprehensive primer to the Java programming language, this book is an invaluable reference tool.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/certification/scjp/9780321585738?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/on80Pa[Read it on Safari Books Online_
 
 === Head First Design Patterns
 
@@ -271,10 +238,7 @@ _688 pages_
 
 At any given moment, somewhere in the world someone struggles with the same software design problems you have. You know you don't want to reinvent the wheel (or worse, a flat tire), so you look to Design Patterns--the lessons learned by those who've faced the same problems. With this book you will learn the real OO design principles and why everything your boss told you about inheritance might be wrong (and what to do instead). This book will load patterns into your brain in a way that sticks. In a way that lets you put them to work immediately. In a way that makes you better at solving software design problems, and better at speaking the language of patterns with others on your team.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780596007126?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/n14DLw[Read it on Safari Books Online_
 
 === Java: The Good Parts
 
@@ -293,10 +257,7 @@ _192 pages_
 
 In this book, one of the most highly respected developers in the Java world peels away 15 years of additions and changes to reveal the very best parts of Java, and shows you how those parts alone will help you build better applications. You may not like some of the features this book reveals, but you'll actually write better code with them. Java: The Good Parts is essential for every Java developer, from beginners to advanced programmers.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780596803735?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/n1Lbko[Read it on Safari Books Online_
 
 ****
 Safari Books Online provides full access to all of the resources in this bibliography. For a free trial, go to http://safaribooksonline.com/oscon11

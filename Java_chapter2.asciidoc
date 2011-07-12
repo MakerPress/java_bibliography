@@ -18,10 +18,7 @@ _384 pages_
 
 Are you looking for a deeper understanding of the Java™ programming language so that you can write code that is clearer, more correct, more robust, and more reusable? Look no further! This book brings together seventy-eight indispensable programmer’s rules of thumb: working, best-practice solutions for the programming challenges you encounter every day. This highly anticipated new edition of the classic, Jolt Award-winning work has been thoroughly updated to cover Java SE 5 and Java SE 6 features introduced since the first edition. Bloch explores new design patterns and language idioms, showing you how to make the most of features ranging from generics to enums, annotations to autoboxing.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780321356680?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/oAblr4[Read it on Safari Books Online_
 
 === Data Structures and Algorithms Using Java
 
@@ -40,10 +37,7 @@ _580 pages_
 
 This book covers the entire recommended syllabus put forth by the Association of Computing Machinery (ACM) standard curriculum guidelines for "Algorithms and Data Structures." The authors main motivation for writing the text was to produce a text that was more readable and instructional than those currently in print without compromising the scope of the CS103 course material. McAllister does just that with his unique student-friendly pedagogical approach and organizational structure. The pedagogical features of the text, based on the author's 30 years of teaching experience, include succinct code examples, a unique common template used as the organizational basis of each chapter, the use of pseudocode to present the major algorithms developed in the text, 300 carefully designed figures, and a review of Java.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780763757564?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/p0sp0v[Read it on Safari Books Online_
 
 === Ant in Action: Java Development with Ant, Second Edition
 
@@ -62,10 +56,7 @@ _600 pages_
 
 This book introduces Ant and how to use it for test-driven Java application development. A single application of increasing complexity, followed throughout the book, shows how an application evolves and how to handle the problems of building and testing. Reviewers have praised the book's coverage of large-projects, Ant's advanced features, and the details and depth of the discussion are unavailable elsewhere.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9781932394801?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/qoG4jy[Read it on Safari Books Online_
 
 === Building and Testing with Gradle
 
@@ -101,10 +92,7 @@ _768 pages_
 
 This edition of Robert Sedgewick's popular work provides current and comprehensive coverage of important algorithms for Java programmers. Michael Schidlowsky and Sedgewick have developed new Java implementations that both express the methods in a concise and direct manner and provide programmers with the practical means to test them on real applications. Many new algorithms are presented, and the explanations of each algorithm are much more detailed than in previous editions. A new text design and detailed, innovative figures, with accompanying commentary, greatly enhance the presentation. The third edition retains the successful blend of theory and practice that has made Sedgewick's work an invaluable resource for more than 400,000 programmers! Whether you are learning the algorithms for the first time or wish to have up-to-date reference material that incorporates new programming styles with classic and new algorithms, you will find a wealth of useful information in this book.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780201361209?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/rhvHwS[Read it on Safari Books Online_
 
 === Object-oriented Programming Using C++ and Java
 
@@ -123,10 +111,7 @@ _500 pages_
 
 This book offers contemporary, comprehensive and in-depth coverage of all the concepts of object-oriented technologies, with an emphasis on problem-solving approaches as applied to C++ and Java Programming paradigms.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9788131754559?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/mYZzsB[Read it on Safari Books Online_
 
 === Java and XML, Third Edition
 
@@ -145,10 +130,7 @@ _480 pages_
 
 This third edition covers all major Java XML processing libraries, including full coverage of the SAX, DOM, StAX, JDOM, and dom4j APIs as well as the latest version of the Java API for XML Processing (JAXP) and Java Architecture for XML Binding (JAXB). The chapters on web technology have been entirely rewritten to focus on the today's most relevant topics: syndicating content with RSS and creating Web 2.0 applications.  If you are developing with Java and need to use XML, or think that you will be in the future; if you're involved in the new peer-to-peer movement, messaging, or web services; or if you're developing software for electronic commerce, this book will be an indispensable companion.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780596101497?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/n7B3t2[Read it on Safari Books Online_
 
 === Program Development in Java: Abstraction, Specification, and Object-Oriented Design
 
@@ -167,10 +149,7 @@ _464 pages_
 
 Written by a world-renowned expert on programming methodology, and the winner of the 2008 Turing Award, this book shows how to build production-quality programs--programs that are reliable, easy to maintain, and quick to modify. Its emphasis is on modular program construction: how to get the modules right and how to organize a program as a collection of modules. The book presents a methodology effective for either an individual programmer, who may be writing a small program or a single module in a larger one; or a software engineer, who may be part of a team developing a complex program comprised of many modules. Both audiences will acquire a solid foundation for object-oriented program design and component-based software development from this methodology. The Java programming language is used for the book's examples. However, the techniques presented are language independent, and an introduction to key Java concepts is included for programmers who may not be familiar with the language.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780201657685?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/oTwcaX[Read it on Safari Books Online_
 
 === Java Puzzlers: Traps, Pitfalls, and Corner Cases
 
@@ -189,10 +168,7 @@ _312 pages_
 
 In this book Bloch and Gafter dive deep into the subtleties of the Java programming language and its core libraries. Illustrated with visually stunning optical illusions, the book features 95 diabolical puzzles that educate and entertain. Anyone with a working knowledge of Java will understand the puzzles, but even the most seasoned veteran will find them challenging. The solutions go well beyond a simple explanation of the program's behavior--they show you how to avoid the underlying traps and pitfalls for good. A handy catalog of traps and pitfalls at the back of the book provides a concise taxonomy for future reference. Solve these puzzles and you'll never again fall prey to the counterintuitive or obscure behaviors that can fool even the most experienced programmers.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780321336781?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/qGa9L2[Read it on Safari Books Online_
 
 === Thinking Recursively with Java
 
@@ -211,10 +187,7 @@ _187 pages_
 
 To provide students with a more effective treatment of this difficult topic, John Wiley and Sons, Inc. published Thinking Recursively by Eric Roberts. Since its publication in 1986, Thinking Recursively has become a classic in a field in which books quickly become obsolete. By focusing on effective problem-solving strategies that enable students to "think recursively," this text has helped many students over the conceptual hurdle that recursion so often represents. To celebrate the 20th anniversary of its initial publication, John Wiley and Sons is publishing Thinking Recursively with Java, making the book even more relevant to today's students.
 
-++++++++++++++++++++++++++++++++++++++
-<ulink url='http://my.safaribooksonline.com/book/programming/java/9780471701460?cid=1107-bibilio-java-link' role='orm:hideurl:ital'>Read it on Safari Books Online</ulink>
-++++++++++++++++++++++++++++++++++++++
-
+_http://bit.ly/rs90yz[Read it on Safari Books Online_
 
 ****
 Safari Books Online provides full access to all of the resources in this bibliography. For a free trial, go to http://safaribooksonline.com/oscon11
