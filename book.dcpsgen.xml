@@ -10,7 +10,7 @@
 <isbn>9781449311896</isbn>
   <edition>1</edition>
   <author>
-    <firstname>Editors of Safari Books Online</firstname>
+    <firstname>The Editors of Safari Books Online</firstname>
   </author>
 </bookinfo>
 <preface id="_special_offer">
@@ -646,7 +646,7 @@ Cloud computing: The cloud has changed the nature of system administration and m
 </sect1>
 <sect1 id="_programming_in_scala_a_comprehensive_step_by_step_guide_2nd_edition">
 <title>Programming in Scala: A Comprehensive Step-by-Step Guide, 2nd Edition</title>
-<simpara>_By Martin Odersky, Lex Spoon &amp; Bill Venners</simpara>
+<simpara><emphasis>By Martin Odersky, Lex Spoon &amp; Bill Venners</emphasis></simpara>
 <simpara><emphasis>Artima</emphasis></simpara>
 <simpara><emphasis>ISBN: 9780981531649</emphasis></simpara>
 <simpara><emphasis>January 2011</emphasis></simpara>
