@@ -18,7 +18,7 @@ _384 pages_
 
 Threads are a fundamental part of the Java platform. As multicore processors become the norm, using concurrency effectively becomes essential for building high-performance applications. Java SE 5 and 6 are a huge step forward for the development of concurrent applications, with improvements to the Java Virtual Machine to support high-performance, highly scalable concurrent classes and a rich set of new concurrency building blocks. In this book, the creators of these new facilities explain not only how they work and how to use them, but also the motivation and design patterns behind them. This book arms readers with both the theoretical underpinnings and concrete techniques for building reliable, scalable, maintainable concurrent applications. Rather than simply offering an inventory of concurrency APIs and mechanisms, it provides design rules, patterns, and mental models that make it easier to build concurrent programs.
 
-_http://bit.ly/rmInZV[Read it on Safari Books Online_
+_http://bit.ly/rmInZV[Read it on Safari Books Online]_
 
 === Java Threads, Third Edition
 
@@ -37,7 +37,7 @@ _360 pages_
 
 Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier. You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs. 
 
-_http://bit.ly/rpSr5Z[Read it on Safari Books Online_
+_http://bit.ly/rpSr5Z[Read it on Safari Books Online]_
 
 === Java Power Tools
 
@@ -56,7 +56,7 @@ _912 pages_
 
 All true craftsmen need the best tools to do their finest work, and programmers are no different. This book delivers 30 open source tools designed to improve the development practices of Java developers in any size team or organization. Each chapter includes a series of short articles about one particular tool -- whether it's for build systems, version control, or other aspects of the development process -- giving you the equivalent of 30 short reference books in one package. No matter which development method your team chooses, whether it's Agile, RUP, XP, SCRUM, or one of many others available, this book provides practical techniques and tools to help you optimize the process. 
 
-_http://bit.ly/qCgW33[Read it on Safari Books Online_
+_http://bit.ly/qCgW33[Read it on Safari Books Online]_
 
 === Hadoop: The Definitive Guide, Second Edition
 
@@ -95,7 +95,7 @@ _336 pages_
 
 This book will lead the reader from obtaining a copy of Hadoop to setting it up in a cluster and writing data analytic programs. It will explain how to use Hadoop and present design patterns and practices of programming MapReduce. MapReduce is a complex idea both conceptually and in its implementation, and Hadoop users are challenged to learn all the knobs and levers for running Hadoop. This book takes you beyond the mechanics of running Hadoop, teaching you to write meaningful programs in a MapReduce framework. This book assumes the reader will have a basic familiarity with Java, as most code examples will be written in Java.
 
-_http://bit.ly/quq9mX[Read it on Safari Books Online_
+_http://bit.ly/quq9mX[Read it on Safari Books Online]_
 
 === Test Driven: Practical TDD and Acceptance TDD for Java Developers
 
@@ -114,7 +114,7 @@ _470 pages_
 
 In test driven development, you first write an executable test of what your application code must do. Only then do you write the code itself and, with the test spurring you on, you improve your design. In acceptance test driven development (ATDD), you use the same technique to implement product features, benefiting from iterative development, rapid feedback cycles, and better-defined requirements. TDD and its supporting tools and techniques lead to better software faster. This book brings under one cover practical TDD techniques distilled from several years of community experience. With examples in Java and the Java EE environment, it explores both the techniques and the mindset of TDD and ATDD. It uses carefully chosen examples to illustrate TDD tools and design patterns, not in the abstract but concretely in the context of the technologies you face at work. It is accessible to TDD beginners, and it offers effective and less well known techniques to older TDD hands.
 
-_http://bit.ly/ncr1Sv[Read it on Safari Books Online_
+_http://bit.ly/ncr1Sv[Read it on Safari Books Online]_
 
 === Design Patterns in Java, Second Edition
 
@@ -133,7 +133,7 @@ _480 pages_
 
 This book gives you the hands-on practice and deep insight you need to fully leverage the significant power of design patterns in any Java software project. This learn-by-doing workbook applies the latest Java features and best practices to all of the original 23 patterns identified in that groundbreaking text. Drawing on their extensive experience as Java instructors and programmers, Steve Metsker and Bill Wake illuminate each pattern with real Java programs, clear UML diagrams, and compelling exercises. You'll move quickly from theory to application—learning how to improve new code and refactor existing code for simplicity, manageability, and performance. If you're a Java programmer wanting to save time while writing better code, this book's techniques, tips, and clear explanations and examples will help you harness the power of patterns to improve every program you write, design, or maintain.
 
-_http://bit.ly/pLlkRB[Read it on Safari Books Online_
+_http://bit.ly/pLlkRB[Read it on Safari Books Online]_
 
 === Real-Time Java Programming with Java RTS
 
@@ -152,7 +152,7 @@ _432 pages_
 
 Sun Microsystems’ Java Real-Time System (Java RTS) is proving itself in numerous, wide-ranging environments, including finance, control systems, manufacturing, and defense. Java RTS and the RTSJ standard (JSR-001) eliminate the need for complicated, specialized, real-time languages and operating environments, saving money by leveraging Java’s exceptional productivity and familiarity. In this book, two of Sun’s top real-time programming experts present the deep knowledge and realistic code examples that developers need to succeed with Java RTS and its APIs. As they do so, the authors also illuminate the foundations of real-time programming in any RTSJ-compatible environment.
 
-_http://bit.ly/qgv6cB[Read it on Safari Books Online_
+_http://bit.ly/qgv6cB[Read it on Safari Books Online]_
 
 === Filthy Rich Clients: Developing Animated and Graphical Effects for Desktop Java Applications
 
@@ -171,7 +171,7 @@ _608 pages_
 
 This book shows you how to build better, more effective, cooler desktop applications that intensify the user experience. The keys to Filthy Rich Clients are graphical and animated effects. These kinds of effects provide ways of enhancing the user experience of the application through more attractive GUIs, dynamic effects that give your application a pulse, and animated transitions that keep your user connected to the logical flow of the application. The book also discusses how to do so effectively, making sure to enrich applications in sensible ways. Informal, fun, and, most of all, useful, this book is great for any developer working with Java to build desktop applications.
 
-_http://bit.ly/nXpOPo[Read it on Safari Books Online_
+_http://bit.ly/nXpOPo[Read it on Safari Books Online]_
 
 === Professional Java JDK, 6th Edition
 
@@ -190,7 +190,7 @@ _766 pages_
 
 Working as an effective professional Java developer requires you to know Java APIs, tools, and techniques to solve a wide variety of Java problems. This resource shows you how to use the core features of the latest JDK as well as powerful open source tools such as Ant, JUnit, and Hibernate. It will arm you with a well-rounded understanding of the professional Java development landscape. The expert author team begins by uncovering the sophisticated Java language features, the methodology for developing solutions, and steps for exploiting patterns. They then provide you with a collection of real-world examples that will become an essential part of your developer's toolkit. With this approach, you'll gain the skills to build advanced solutions by utilizing the more complex and nuanced parts of Java JDK 6.
 
-_http://bit.ly/pU0f8a[Read it on Safari Books Online_
+_http://bit.ly/pU0f8a[Read it on Safari Books Online]_
 
 === Agile Java: Crafting Code with Test-Driven Development
 
@@ -209,7 +209,7 @@ _792 pages_
 
 Master Java 5.0, object-oriented design, and Test-Driven Development (TDD) by learning them together. This book weaves all three into a single coherent approach to building professional, robust software systems. Jeff Langr shows exactly how Java and TDD integrate throughout the entire development lifecycle, helping you leverage today's fastest, most efficient development techniques from the very outset. Langr writes for every programmer, even those with little or no experience with Java, object-oriented development, or agile methods. He shows how to translate oral requirements into practical tests, and then how to use those tests to create reliable, high-performance Java code that solves real problems. Agile Java doesn't just teach the core features of the Java language: it presents coded test examples for each of them. This TDD-centered approach doesn't just lead to better code: it provides powerful feedback that will help you learn Java far more rapidly. The use of TDD as a learning mechanism is a landmark departure from conventional teaching techniques.
 
-_http://bit.ly/nWtphW[Read it on Safari Books Online_
+_http://bit.ly/nWtphW[Read it on Safari Books Online]_
 
 === Concurrent Programming in Java: Design Principles and Patterns, Second Edition
 
@@ -228,7 +228,7 @@ _432 pages_
 
 The Java platform provides a broad and powerful set of APIs, tools, and technologies. One of its most powerful capabilities is the built-in support for threads. This makes concurrent programming an attractive yet challenging option for programmers using the Java programming language. This book shows readers how to use the Java platform's threading model more precisely by helping them to understand the patterns and tradeoffs associated with concurrent programming. You will learn how to initiate, control, and coordinate concurrent activities using the class java.lang.Thread, the keywords synchronized and volatile, and the methods wait, notify, and notifyAll. In addition, you will find detailed coverage of all aspects of concurrent programming, including such topics as confinement and synchronization, deadlocks and conflicts, state-dependent action control, asynchronous message passing and control flow, coordinated interaction, and structuring web-based and computational services.
 
-_http://bit.ly/qSqwFZ[Read it on Safari Books Online_
+_http://bit.ly/qSqwFZ[Read it on Safari Books Online]_
 
 ****
 Safari Books Online provides full access to all of the resources in this bibliography. For a free trial, go to http://safaribooksonline.com/oscon11
