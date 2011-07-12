@@ -1,0 +1,1 @@
+image::attachments/JavaBibliography_cover.png[]
