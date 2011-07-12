@@ -22,7 +22,7 @@ _http://bit.ly/q2elR5[Read it on Safari Books Online]_
 
 === Programming in Scala: A Comprehensive Step-by-Step Guide, 2nd Edition
 
-_By Martin Odersky, Lex Spoon & Bill Venners 
+_By Martin Odersky, Lex Spoon & Bill Venners_ 
 
 _Artima_ 
 
